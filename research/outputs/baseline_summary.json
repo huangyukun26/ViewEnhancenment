@@ -1,0 +1,8 @@
+{
+  "E0": "unavailable; checkpoint absent",
+  "E1": "strict mask composition using an inferred difference mask",
+  "mask_outside_max_abs": 0,
+  "mask_outside_mean_abs": 0.0,
+  "paired_metrics_are_not_GT_metrics": true,
+  "sample_count": 382
+}

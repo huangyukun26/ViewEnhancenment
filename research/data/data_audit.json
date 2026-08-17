@@ -1,0 +1,187 @@
+{
+  "data_root": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets",
+  "pair_audit": {
+    "candidate_original_files": 387,
+    "paired_files": 382,
+    "missing_or_orphan_files": 5,
+    "missing_or_orphan_examples": [
+      "image_patches_small/0_112_41_SKSWBPWJPS_1_5_1_A_Bed_0",
+      "image_patches_small/1_120_17_SKPDPPERPE_1_5_18_A_MBed_1",
+      "orphan_generated:To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s1_trainingset/image_patches_small/others/0_126_27_SKPPWEPXPE_2_32_17_B_Living_0_generated.png",
+      "orphan_generated:To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s1_trainingset/image_patches_small/others/1_126_27_SKPPWEPXPE_2_32_17_B_Living_1_generated.png",
+      "orphan_generated:To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s1_trainingset/image_patches_small/others/2_120_17_SKPDPPERPE_1_5_18_A_MBed_2_generated.png"
+    ]
+  },
+  "valid_pairs": 382,
+  "invalid_pairs": 0,
+  "source_groups": 80,
+  "split": {
+    "version": 1,
+    "seed": 20260817,
+    "grouping_rule": "remove leading augmentation index and trailing patch index from paired filename",
+    "group_counts": {
+      "train": 51,
+      "test": 16,
+      "val": 13
+    },
+    "sample_counts": {
+      "test": 67,
+      "train": 262,
+      "val": 53
+    },
+    "groups": {
+      "0_24_SKPPWDPXPS_1_1_6_A_LivingDining": "train",
+      "0_93_TZTNIHIYHM_1_1_2_A_MBed": "train",
+      "1007_11_SKBKBPEAPE_1_106_36_G_Bed": "train",
+      "100_63_TTTSTHHXHM_1_6_12_B_Bed": "train",
+      "102_10_SKADBPYRPE_3_23_16_A_Bed": "train",
+      "10_61_TTNTIHLEHM_1_1_12_A_Bed": "test",
+      "10_72_TZDZZHIAHT_1_1_11_F_Bed": "val",
+      "111_10_SKADBPYRPE_3_23_25_A_Bed": "train",
+      "112_41_SKSWBPWJPS_1_5_1_A_Bed": "train",
+      "113_41_SKSWBPWJPS_1_5_2_A_Bed": "train",
+      "1145_30_SKPPWKPEPE_2_50_47_C_Bed": "train",
+      "116_10_SKADBPYRPE_3_24_11_A_Bed": "test",
+      "11_5_OSRRQRUXUU_1_2_1_A_Bed": "train",
+      "11_61_TTNTIHLEHM_1_1_13_A_Bed": "train",
+      "11_63_TTTSTHHXHM_1_1_12_A_Kitchen": "train",
+      "120_17_SKPDPPERPE_1_5_18_A_MBed": "val",
+      "120_41_SKSWBPWJPS_1_5_9_A_Bed": "train",
+      "122_17_SKPDPPERPE_1_5_20_A_MBed": "test",
+      "126_17_SKPDPPERPE_1_5_24_A_MBed": "val",
+      "126_27_SKPPWEPXPE_2_32_17_B_Living": "val",
+      "12_86_TZSMTHISHM_1_1_13_A_LivingDining": "test",
+      "1314_25_SKPPWEPEPE_2_51_8_B_Living": "test",
+      "1325_56_SSPPWYPXPS_1_26_11_G_Living": "train",
+      "132_10_SKADBPYRPE_3_24_27_A_Bed": "val",
+      "132_85_TZSITHMXHM_1_12_1_2_Bed": "val",
+      "1346_81_TZMNIHIXHM_1_34_25_E_MBed": "train",
+      "134_10_SKADBPYRPE_3_25_10_A_Bed": "train",
+      "134_15_SKEYPPEAPE_1_5_32_A_MBed": "test",
+      "138_7_SEPPWDPXPE_1_5_19_A_Bed": "train",
+      "13_22_SKPPWBPEPE_1_14_7_Whole_MBed": "train",
+      "141_15_SKEYPPEAPE_1_6_11_A_Bed": "train",
+      "1493_93_TZTNIHIYHM_1_38_46_F_Bed": "train",
+      "1494_93_TZTNIHIYHM_1_38_47_F_Bed": "train",
+      "152_10_SKADBPYRPE_3_25_28_A_Bed": "test",
+      "1537_93_TZTNIHIYHM_1_39_44_F_Bed": "train",
+      "1549_40_SKSSGPYXPE_1_39_36_H_Bed": "train",
+      "154_44_SSPPWBPEPK_1_12_5_E_Living": "test",
+      "156_86_TZSMTHISHM_1_6_12_A_Bath": "train",
+      "168_41_SKSWBPWJPS_1_7_1_B_Bed": "test",
+      "179_61_TTNTIHLEHM_1_17_8_C_Bed": "train",
+      "1_11_SKBKBPEAPE_1_1_2_A_Living": "train",
+      "1_20_SKPPWAPXPE_1_15_7_A_Living": "val",
+      "229_78_TZIDZHMXHM_3_39_26_A_Utility": "train",
+      "280_17_SKPDPPERPE_1_11_10_C_MBed": "train",
+      "29_44_SSPPWBPEPK_1_2_6_A_MBed": "train",
+      "304_17_SKPDPPERPE_1_11_34_C_MBed": "train",
+      "307_41_SKSWBPWJPS_1_11_28_D_LivingDining": "val",
+      "308_15_SKEYPPEAPE_1_12_10_B_MBed": "test",
+      "30_89_TZTMTHMJMM_1_2_13_A_Bed": "train",
+      "31_4_OSRRQRUXOU_1_3_10_A_Bed": "train",
+      "325_38_SKPPWYPEPE_1_105_13_B_MBed": "train",
+      "334_4_OSRRQRUXOU_1_110_1_D_Bed": "train",
+      "363_2_OSJDFRJRRU_1_14_2_D_Bed": "train",
+      "379_11_SKBKBPEAPE_1_11_20_C_Living": "val",
+      "396_11_SKBKBPEAPE_1_12_1_C_Bed": "train",
+      "562_17_SKPDPPERPE_2_29_38_B_Living": "val",
+      "56_15_SKEYPPEAPE_1_3_10_A_MBath": "train",
+      "589_87_TZSNTHIAHM_1_22_6_D_MBed": "train",
+      "590_2_OSJDFRJRRU_1_20_31_F_Bed": "val",
+      "594_30_SKPPWKPEPE_2_38_36_B_Living": "test",
+      "594_86_TZSMTHISHM_1_22_15_D_Bath": "train",
+      "594_87_TZSNTHIAHM_1_22_11_D_MBed": "train",
+      "608_82_TZNITHIOHM_1_117_27_D_Bed": "train",
+      "609_11_SKBKBPEAPE_1_17_34_D_Bed": "train",
+      "631_86_TZSMTHISHM_1_23_23_D_Utility": "train",
+      "632_3_OSRJURUXRU_1_31_15_D_MBed": "train",
+      "632_84_TZSHZHMRHM_1_20_25_B_Living": "test",
+      "637_3_OSRJURUXRU_1_31_20_D_MBed": "train",
+      "650_86_TZSMTHISHM_1_24_13_D_LivingDining": "test",
+      "651_3_OSRJURUXRU_1_32_8_D_Bed": "train",
+      "666_87_TZSNTHIAHM_1_24_25_D_LivingDining": "train",
+      "667_3_OSRJURUXRU_1_32_24_D_Bed": "val",
+      "682_41_SKSWBPWJPS_1_26_11_C_Bed": "train",
+      "700_41_SKSWBPWJPS_1_28_1_C_LivingDining": "test",
+      "838_27_SKPPWEPXPE_5_95_23_B_Living": "train",
+      "847_81_TZMNIHIXHM_1_22_43_C_MBed": "train",
+      "883_71_TZDZTHIRHM_1_26_34_C_LivingDining": "train",
+      "884_27_SKPPWEPXPE_5_96_43_C_Living": "test",
+      "908_80_TZLZZHIOHT_1_223_7_H_Bed": "test",
+      "90_78_TZIDZHMXHM_2_27_8_A_Utility": "val"
+    }
+  },
+  "json_manifests": [
+    {
+      "manifest": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s2_large_scale_dataset/aspect_ratio_bucket_indices_windowview_enhancement-512.json",
+      "entries": 0,
+      "input_resolved": 0,
+      "output_resolved": 0,
+      "input_resolution_modes": {},
+      "output_resolution_modes": {}
+    },
+    {
+      "manifest": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s2_large_scale_dataset/aspect_ratio_bucket_metadata_windowview_enhancement-512.json",
+      "entries": 0,
+      "input_resolved": 0,
+      "output_resolved": 0,
+      "input_resolution_modes": {},
+      "output_resolution_modes": {}
+    },
+    {
+      "manifest": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s2_large_scale_dataset/json_file/training.json",
+      "entries": 645,
+      "input_resolved": 50,
+      "output_resolved": 49,
+      "input_resolution_modes": {
+        "missing": 589,
+        "unique_basename": 50,
+        "ambiguous_basename": 6
+      },
+      "output_resolution_modes": {
+        "missing": 591,
+        "unique_basename": 49,
+        "ambiguous_basename": 5
+      }
+    },
+    {
+      "manifest": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s2_large_scale_dataset/json_file/training_short_prompt.json",
+      "entries": 547,
+      "input_resolved": 43,
+      "output_resolved": 42,
+      "input_resolution_modes": {
+        "missing": 498,
+        "unique_basename": 43,
+        "ambiguous_basename": 6
+      },
+      "output_resolution_modes": {
+        "missing": 500,
+        "unique_basename": 42,
+        "ambiguous_basename": 5
+      }
+    },
+    {
+      "manifest": "To_Yukun_3DModelImageryEnhancement/To_Yukun_3DModelImageryEnhancement/s7_make_datasets/s2_large_scale_dataset/json_file/val_short_prompt.json",
+      "entries": 98,
+      "input_resolved": 7,
+      "output_resolved": 7,
+      "input_resolution_modes": {
+        "missing": 91,
+        "unique_basename": 7
+      },
+      "output_resolution_modes": {
+        "missing": 91,
+        "unique_basename": 7
+      }
+    }
+  ],
+  "severity_thresholds_diff_mean": {
+    "light_max": 1.3758996641635894,
+    "medium_max": 3.6191687774658203,
+    "identity_q20": 1.0290011405944823
+  },
+  "e0_status": "unavailable: no InstructPix2Pix checkpoint is present in the repository",
+  "e1_status": "implemented: output = mask * pseudo_gt + (1 - mask) * input",
+  "pseudo_gt_warning": "Existing generated images are FLUX-like pseudo-GT and can change structure; metrics are sanity checks only."
+}
