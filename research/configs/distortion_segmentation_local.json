@@ -1,0 +1,32 @@
+{
+  "dataset_name": "WindowviewDistortion",
+  "dataset_root": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation",
+  "image_dir": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/images",
+  "mask_dir": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/mask_for_sam",
+  "train_list": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/ImageSet/train.txt",
+  "val_list": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/ImageSet/val.txt",
+  "checkpoint": "checkpoint_best.pth",
+  "checkpoint_role": "LoRA/SAM distortion-segmentation checkpoint used as --lora_ckpt",
+  "model": {
+    "vit_name": "vit_b",
+    "rank": 4,
+    "img_size": 512,
+    "num_classes": 1,
+    "seed": 1234
+  },
+  "dataset_summary": {
+    "images": 220,
+    "masks": 220,
+    "train": 187,
+    "val": 33,
+    "test": 0,
+    "image_size": [900, 900],
+    "mask_values": [0, 1],
+    "mask_outside_split": false
+  },
+  "notes": [
+    "Paths are relative to the repository root.",
+    "The SAM base checkpoint is not included; provide it through --ckpt.",
+    "The original zip archive and PPT/PPTX files remain intentionally excluded from Git."
+  ]
+}
