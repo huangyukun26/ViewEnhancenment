@@ -1,0 +1,1257 @@
+[
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_1314_25_SKPPWEPEPE_2_51_8_B_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_1314_25_SKPPWEPEPE_2_51_8_B_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_589_87_TZSNTHIAHM_1_22_6_D_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_589_87_TZSNTHIAHM_1_22_6_D_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_608_82_TZNITHIOHM_1_117_27_D_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/0_608_82_TZNITHIOHM_1_117_27_D_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/18_1325_56_SSPPWYPXPS_1_26_11_G_Living_18_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/18_1325_56_SSPPWYPXPS_1_26_11_G_Living_18_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/19_1325_56_SSPPWYPXPS_1_26_11_G_Living_19_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/19_1325_56_SSPPWYPXPS_1_26_11_G_Living_19_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/1_608_82_TZNITHIOHM_1_117_27_D_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/1_608_82_TZNITHIOHM_1_117_27_D_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/2_594_87_TZSNTHIAHM_1_22_11_D_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/2_594_87_TZSNTHIAHM_1_22_11_D_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/3_589_87_TZSNTHIAHM_1_22_6_D_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/3_589_87_TZSNTHIAHM_1_22_6_D_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/4_1325_56_SSPPWYPXPS_1_26_11_G_Living_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/4_1325_56_SSPPWYPXPS_1_26_11_G_Living_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/4_682_41_SKSWBPWJPS_1_26_11_C_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/4_682_41_SKSWBPWJPS_1_26_11_C_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/6_594_30_SKPPWKPEPE_2_38_36_B_Living_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_imagine/6_594_30_SKPPWKPEPE_2_38_36_B_Living_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_100_63_TTTSTHHXHM_1_6_12_B_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_100_63_TTTSTHHXHM_1_6_12_B_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_102_10_SKADBPYRPE_3_23_16_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_102_10_SKADBPYRPE_3_23_16_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_112_41_SKSWBPWJPS_1_5_1_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_112_41_SKSWBPWJPS_1_5_1_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_113_41_SKSWBPWJPS_1_5_2_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_113_41_SKSWBPWJPS_1_5_2_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_1145_30_SKPPWKPEPE_2_50_47_C_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_1145_30_SKPPWKPEPE_2_50_47_C_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_11_5_OSRRQRUXUU_1_2_1_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_11_5_OSRRQRUXUU_1_2_1_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_11_61_TTNTIHLEHM_1_1_13_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_11_61_TTNTIHLEHM_1_1_13_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_120_17_SKPDPPERPE_1_5_18_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_120_17_SKPDPPERPE_1_5_18_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_122_17_SKPDPPERPE_1_5_20_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_122_17_SKPDPPERPE_1_5_20_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_126_17_SKPDPPERPE_1_5_24_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_126_17_SKPDPPERPE_1_5_24_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_132_10_SKADBPYRPE_3_24_27_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_132_10_SKADBPYRPE_3_24_27_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_229_78_TZIDZHMXHM_3_39_26_A_Utility_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_229_78_TZIDZHMXHM_3_39_26_A_Utility_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_280_17_SKPDPPERPE_1_11_10_C_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_280_17_SKPDPPERPE_1_11_10_C_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_30_89_TZTMTHMJMM_1_2_13_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_30_89_TZTMTHMJMM_1_2_13_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_31_4_OSRRQRUXOU_1_3_10_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_31_4_OSRRQRUXOU_1_3_10_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_325_38_SKPPWYPEPE_1_105_13_B_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_325_38_SKPPWYPEPE_1_105_13_B_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_363_2_OSJDFRJRRU_1_14_2_D_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_363_2_OSJDFRJRRU_1_14_2_D_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_379_11_SKBKBPEAPE_1_11_20_C_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_379_11_SKBKBPEAPE_1_11_20_C_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_632_3_OSRJURUXRU_1_31_15_D_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_632_3_OSRJURUXRU_1_31_15_D_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_637_3_OSRJURUXRU_1_31_20_D_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_637_3_OSRJURUXRU_1_31_20_D_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_650_86_TZSMTHISHM_1_24_13_D_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_650_86_TZSMTHISHM_1_24_13_D_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_666_87_TZSNTHIAHM_1_24_25_D_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_666_87_TZSNTHIAHM_1_24_25_D_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_667_3_OSRJURUXRU_1_32_24_D_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_667_3_OSRJURUXRU_1_32_24_D_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_682_41_SKSWBPWJPS_1_26_11_C_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_682_41_SKSWBPWJPS_1_26_11_C_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_847_81_TZMNIHIXHM_1_22_43_C_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_847_81_TZMNIHIXHM_1_22_43_C_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_884_27_SKPPWEPXPE_5_96_43_C_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_884_27_SKPPWEPXPE_5_96_43_C_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_90_78_TZIDZHMXHM_2_27_8_A_Utility_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/0_90_78_TZIDZHMXHM_2_27_8_A_Utility_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_102_10_SKADBPYRPE_3_23_16_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_102_10_SKADBPYRPE_3_23_16_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_120_17_SKPDPPERPE_1_5_18_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_120_17_SKPDPPERPE_1_5_18_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_122_17_SKPDPPERPE_1_5_20_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_122_17_SKPDPPERPE_1_5_20_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_126_17_SKPDPPERPE_1_5_24_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_126_17_SKPDPPERPE_1_5_24_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_134_15_SKEYPPEAPE_1_5_32_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_134_15_SKEYPPEAPE_1_5_32_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_30_89_TZTMTHMJMM_1_2_13_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_30_89_TZTMTHMJMM_1_2_13_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_31_4_OSRRQRUXOU_1_3_10_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_31_4_OSRRQRUXOU_1_3_10_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_379_11_SKBKBPEAPE_1_11_20_C_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_379_11_SKBKBPEAPE_1_11_20_C_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_396_11_SKBKBPEAPE_1_12_1_C_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/100_396_11_SKBKBPEAPE_1_12_1_C_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/101_132_10_SKADBPYRPE_3_24_27_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/101_132_10_SKADBPYRPE_3_24_27_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/12_134_15_SKEYPPEAPE_1_5_32_A_MBed_12_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/12_134_15_SKEYPPEAPE_1_5_32_A_MBed_12_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/13_156_86_TZSMTHISHM_1_6_12_A_Bath_13_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/13_156_86_TZSMTHISHM_1_6_12_A_Bath_13_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/14_1346_81_TZMNIHIXHM_1_34_25_E_MBed_14_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/14_1346_81_TZMNIHIXHM_1_34_25_E_MBed_14_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/15_308_15_SKEYPPEAPE_1_12_10_B_MBed_15_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/15_308_15_SKEYPPEAPE_1_12_10_B_MBed_15_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/16_156_86_TZSMTHISHM_1_6_12_A_Bath_16_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/16_156_86_TZSMTHISHM_1_6_12_A_Bath_16_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/17_156_86_TZSMTHISHM_1_6_12_A_Bath_17_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/17_156_86_TZSMTHISHM_1_6_12_A_Bath_17_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1007_11_SKBKBPEAPE_1_106_36_G_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1007_11_SKBKBPEAPE_1_106_36_G_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_102_10_SKADBPYRPE_3_23_16_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_102_10_SKADBPYRPE_3_23_16_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_10_61_TTNTIHLEHM_1_1_12_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_10_61_TTNTIHLEHM_1_1_12_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_122_17_SKPDPPERPE_1_5_20_A_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_122_17_SKPDPPERPE_1_5_20_A_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_132_10_SKADBPYRPE_3_24_27_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_132_10_SKADBPYRPE_3_24_27_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_134_15_SKEYPPEAPE_1_5_32_A_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_134_15_SKEYPPEAPE_1_5_32_A_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1549_40_SKSSGPYXPE_1_39_36_H_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1549_40_SKSSGPYXPE_1_39_36_H_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_168_41_SKSWBPWJPS_1_7_1_B_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_168_41_SKSWBPWJPS_1_7_1_B_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1_11_SKBKBPEAPE_1_1_2_A_Living_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_1_11_SKBKBPEAPE_1_1_2_A_Living_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_229_78_TZIDZHMXHM_3_39_26_A_Utility_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_229_78_TZIDZHMXHM_3_39_26_A_Utility_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_280_17_SKPDPPERPE_1_11_10_C_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_280_17_SKPDPPERPE_1_11_10_C_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_31_4_OSRRQRUXOU_1_3_10_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_31_4_OSRRQRUXOU_1_3_10_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_631_86_TZSMTHISHM_1_23_23_D_Utility_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_631_86_TZSMTHISHM_1_23_23_D_Utility_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_682_41_SKSWBPWJPS_1_26_11_C_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_682_41_SKSWBPWJPS_1_26_11_C_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_847_81_TZMNIHIXHM_1_22_43_C_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_847_81_TZMNIHIXHM_1_22_43_C_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_90_78_TZIDZHMXHM_2_27_8_A_Utility_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/1_90_78_TZIDZHMXHM_2_27_8_A_Utility_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_102_10_SKADBPYRPE_3_23_16_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_102_10_SKADBPYRPE_3_23_16_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1145_30_SKPPWKPEPE_2_50_47_C_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1145_30_SKPPWKPEPE_2_50_47_C_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_132_10_SKADBPYRPE_3_24_27_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_132_10_SKADBPYRPE_3_24_27_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_134_10_SKADBPYRPE_3_25_10_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_134_10_SKADBPYRPE_3_25_10_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1494_93_TZTNIHIYHM_1_38_47_F_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1494_93_TZTNIHIYHM_1_38_47_F_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_179_61_TTNTIHLEHM_1_17_8_C_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_179_61_TTNTIHLEHM_1_17_8_C_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1_11_SKBKBPEAPE_1_1_2_A_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_1_11_SKBKBPEAPE_1_1_2_A_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_304_17_SKPDPPERPE_1_11_34_C_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_304_17_SKPDPPERPE_1_11_34_C_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_307_41_SKSWBPWJPS_1_11_28_D_LivingDining_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_307_41_SKSWBPWJPS_1_11_28_D_LivingDining_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_363_2_OSJDFRJRRU_1_14_2_D_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_363_2_OSJDFRJRRU_1_14_2_D_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_562_17_SKPDPPERPE_2_29_38_B_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_562_17_SKPDPPERPE_2_29_38_B_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_594_86_TZSMTHISHM_1_22_15_D_Bath_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/2_594_86_TZSMTHISHM_1_22_15_D_Bath_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_134_15_SKEYPPEAPE_1_5_32_A_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_134_15_SKEYPPEAPE_1_5_32_A_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_308_15_SKEYPPEAPE_1_12_10_B_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_308_15_SKEYPPEAPE_1_12_10_B_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_30_89_TZTMTHMJMM_1_2_13_A_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_30_89_TZTMTHMJMM_1_2_13_A_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_325_38_SKPPWYPEPE_1_105_13_B_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_325_38_SKPPWYPEPE_1_105_13_B_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_396_11_SKBKBPEAPE_1_12_1_C_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_396_11_SKBKBPEAPE_1_12_1_C_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_631_86_TZSMTHISHM_1_23_23_D_Utility_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_631_86_TZSMTHISHM_1_23_23_D_Utility_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_667_3_OSRJURUXRU_1_32_24_D_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_667_3_OSRJURUXRU_1_32_24_D_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_908_80_TZLZZHIOHT_1_223_7_H_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/3_908_80_TZLZZHIOHT_1_223_7_H_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_120_17_SKPDPPERPE_1_5_18_A_MBed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_120_17_SKPDPPERPE_1_5_18_A_MBed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_122_17_SKPDPPERPE_1_5_20_A_MBed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_122_17_SKPDPPERPE_1_5_20_A_MBed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_134_10_SKADBPYRPE_3_25_10_A_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_134_10_SKADBPYRPE_3_25_10_A_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_179_61_TTNTIHLEHM_1_17_8_C_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_179_61_TTNTIHLEHM_1_17_8_C_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_396_11_SKBKBPEAPE_1_12_1_C_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_396_11_SKBKBPEAPE_1_12_1_C_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_908_80_TZLZZHIOHT_1_223_7_H_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/4_908_80_TZLZZHIOHT_1_223_7_H_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_1145_30_SKPPWKPEPE_2_50_47_C_Bed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_1145_30_SKPPWKPEPE_2_50_47_C_Bed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_120_17_SKPDPPERPE_1_5_18_A_MBed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_120_17_SKPDPPERPE_1_5_18_A_MBed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_1325_56_SSPPWYPXPS_1_26_11_G_Living_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_1325_56_SSPPWYPXPS_1_26_11_G_Living_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_134_15_SKEYPPEAPE_1_5_32_A_MBed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_134_15_SKEYPPEAPE_1_5_32_A_MBed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_280_17_SKPDPPERPE_1_11_10_C_MBed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_280_17_SKPDPPERPE_1_11_10_C_MBed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_325_38_SKPPWYPEPE_1_105_13_B_MBed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_325_38_SKPPWYPEPE_1_105_13_B_MBed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_631_86_TZSMTHISHM_1_23_23_D_Utility_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_631_86_TZSMTHISHM_1_23_23_D_Utility_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_667_3_OSRJURUXRU_1_32_24_D_Bed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/5_667_3_OSRJURUXRU_1_32_24_D_Bed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_11_5_OSRRQRUXUU_1_2_1_A_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_11_5_OSRRQRUXUU_1_2_1_A_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_11_61_TTNTIHLEHM_1_1_13_A_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_11_61_TTNTIHLEHM_1_1_13_A_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_122_17_SKPDPPERPE_1_5_20_A_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_122_17_SKPDPPERPE_1_5_20_A_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_1493_93_TZTNIHIYHM_1_38_46_F_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_1493_93_TZTNIHIYHM_1_38_46_F_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_1494_93_TZTNIHIYHM_1_38_47_F_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/6_1494_93_TZTNIHIYHM_1_38_47_F_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_134_15_SKEYPPEAPE_1_5_32_A_MBed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_134_15_SKEYPPEAPE_1_5_32_A_MBed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_56_15_SKEYPPEAPE_1_3_10_A_MBath_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_56_15_SKEYPPEAPE_1_3_10_A_MBath_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_594_86_TZSMTHISHM_1_22_15_D_Bath_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_594_86_TZSMTHISHM_1_22_15_D_Bath_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_631_86_TZSMTHISHM_1_23_23_D_Utility_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_631_86_TZSMTHISHM_1_23_23_D_Utility_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_682_41_SKSWBPWJPS_1_26_11_C_Bed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_682_41_SKSWBPWJPS_1_26_11_C_Bed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_908_80_TZLZZHIOHT_1_223_7_H_Bed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/7_908_80_TZLZZHIOHT_1_223_7_H_Bed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_1145_30_SKPPWKPEPE_2_50_47_C_Bed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_1145_30_SKPPWKPEPE_2_50_47_C_Bed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_134_10_SKADBPYRPE_3_25_10_A_Bed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_134_10_SKADBPYRPE_3_25_10_A_Bed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_134_15_SKEYPPEAPE_1_5_32_A_MBed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_134_15_SKEYPPEAPE_1_5_32_A_MBed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_1_11_SKBKBPEAPE_1_1_2_A_Living_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_1_11_SKBKBPEAPE_1_1_2_A_Living_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_594_87_TZSNTHIAHM_1_22_11_D_MBed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/8_594_87_TZSNTHIAHM_1_22_11_D_MBed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/9_141_15_SKEYPPEAPE_1_6_11_A_Bed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_nostructure_noimagine/9_141_15_SKEYPPEAPE_1_6_11_A_Bed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/0_138_7_SEPPWDPXPE_1_5_19_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/0_138_7_SEPPWDPXPE_1_5_19_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/0_590_2_OSJDFRJRRU_1_20_31_F_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/0_590_2_OSJDFRJRRU_1_20_31_F_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/100_126_27_SKPPWEPXPE_2_32_17_B_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/100_126_27_SKPPWEPXPE_2_32_17_B_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/100_138_7_SEPPWDPXPE_1_5_19_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/100_138_7_SEPPWDPXPE_1_5_19_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/10_11_5_OSRRQRUXUU_1_2_1_A_Bed_10_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/10_11_5_OSRRQRUXUU_1_2_1_A_Bed_10_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/10_1325_56_SSPPWYPXPS_1_26_11_G_Living_10_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/10_1325_56_SSPPWYPXPS_1_26_11_G_Living_10_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_11_5_OSRRQRUXUU_1_2_1_A_Bed_11_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_11_5_OSRRQRUXUU_1_2_1_A_Bed_11_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_1325_56_SSPPWYPXPS_1_26_11_G_Living_11_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_1325_56_SSPPWYPXPS_1_26_11_G_Living_11_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_179_61_TTNTIHLEHM_1_17_8_C_Bed_11_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/11_179_61_TTNTIHLEHM_1_17_8_C_Bed_11_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/12_179_61_TTNTIHLEHM_1_17_8_C_Bed_12_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/12_179_61_TTNTIHLEHM_1_17_8_C_Bed_12_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/2_594_30_SKPPWKPEPE_2_38_36_B_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/2_594_30_SKPPWKPEPE_2_38_36_B_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/2_608_82_TZNITHIOHM_1_117_27_D_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/2_608_82_TZNITHIOHM_1_117_27_D_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/3_126_27_SKPPWEPXPE_2_32_17_B_Living_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/3_126_27_SKPPWEPXPE_2_32_17_B_Living_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/3_29_44_SSPPWBPEPK_1_2_6_A_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/3_29_44_SSPPWBPEPK_1_2_6_A_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/4_632_3_OSRJURUXRU_1_31_15_D_MBed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/4_632_3_OSRJURUXRU_1_31_15_D_MBed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/5_608_82_TZNITHIOHM_1_117_27_D_Bed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/5_608_82_TZNITHIOHM_1_117_27_D_Bed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_1346_81_TZMNIHIXHM_1_34_25_E_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_1346_81_TZMNIHIXHM_1_34_25_E_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_589_87_TZSNTHIAHM_1_22_6_D_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_589_87_TZSNTHIAHM_1_22_6_D_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_594_87_TZSNTHIAHM_1_22_11_D_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/6_594_87_TZSNTHIAHM_1_22_11_D_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/7_11_61_TTNTIHLEHM_1_1_13_A_Bed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/7_11_61_TTNTIHLEHM_1_1_13_A_Bed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/8_11_61_TTNTIHLEHM_1_1_13_A_Bed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_imagine/8_11_61_TTNTIHLEHM_1_1_13_A_Bed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_11_63_TTTSTHHXHM_1_1_12_A_Kitchen_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_11_63_TTTSTHHXHM_1_1_12_A_Kitchen_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_120_41_SKSWBPWJPS_1_5_9_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_120_41_SKSWBPWJPS_1_5_9_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_141_15_SKEYPPEAPE_1_6_11_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_141_15_SKEYPPEAPE_1_6_11_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_179_61_TTNTIHLEHM_1_17_8_C_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_179_61_TTNTIHLEHM_1_17_8_C_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_1_11_SKBKBPEAPE_1_1_2_A_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_1_11_SKBKBPEAPE_1_1_2_A_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_1_20_SKPPWAPXPE_1_15_7_A_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_1_20_SKPPWAPXPE_1_15_7_A_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_29_44_SSPPWBPEPK_1_2_6_A_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_29_44_SSPPWBPEPK_1_2_6_A_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_883_71_TZDZTHIRHM_1_26_34_C_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/0_883_71_TZDZTHIRHM_1_26_34_C_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_156_86_TZSMTHISHM_1_6_12_A_Bath_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_156_86_TZSMTHISHM_1_6_12_A_Bath_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_179_61_TTNTIHLEHM_1_17_8_C_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_179_61_TTNTIHLEHM_1_17_8_C_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_1_20_SKPPWAPXPE_1_15_7_A_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_1_20_SKPPWAPXPE_1_15_7_A_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_56_15_SKEYPPEAPE_1_3_10_A_MBath_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_56_15_SKEYPPEAPE_1_3_10_A_MBath_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_594_86_TZSMTHISHM_1_22_15_D_Bath_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/100_594_86_TZSMTHISHM_1_22_15_D_Bath_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_379_11_SKBKBPEAPE_1_11_20_C_Living_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_379_11_SKBKBPEAPE_1_11_20_C_Living_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_589_87_TZSNTHIAHM_1_22_6_D_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/101_589_87_TZSNTHIAHM_1_22_6_D_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_120_17_SKPDPPERPE_1_5_18_A_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_120_17_SKPDPPERPE_1_5_18_A_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_594_86_TZSMTHISHM_1_22_15_D_Bath_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/102_594_86_TZSMTHISHM_1_22_15_D_Bath_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_141_15_SKEYPPEAPE_1_6_11_A_Bed_10_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_141_15_SKEYPPEAPE_1_6_11_A_Bed_10_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_1_11_SKBKBPEAPE_1_1_2_A_Living_10_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_1_11_SKBKBPEAPE_1_1_2_A_Living_10_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_609_11_SKBKBPEAPE_1_17_34_D_Bed_10_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/10_609_11_SKBKBPEAPE_1_17_34_D_Bed_10_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/11_632_3_OSRJURUXRU_1_31_15_D_MBed_11_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/11_632_3_OSRJURUXRU_1_31_15_D_MBed_11_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/12_1007_11_SKBKBPEAPE_1_106_36_G_Bed_12_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/12_1007_11_SKBKBPEAPE_1_106_36_G_Bed_12_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/14_179_61_TTNTIHLEHM_1_17_8_C_Bed_14_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/14_179_61_TTNTIHLEHM_1_17_8_C_Bed_14_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_11_61_TTNTIHLEHM_1_1_13_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_11_61_TTNTIHLEHM_1_1_13_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_156_86_TZSMTHISHM_1_6_12_A_Bath_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_156_86_TZSMTHISHM_1_6_12_A_Bath_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_179_61_TTNTIHLEHM_1_17_8_C_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_179_61_TTNTIHLEHM_1_17_8_C_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_1_20_SKPPWAPXPE_1_15_7_A_Living_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_1_20_SKPPWAPXPE_1_15_7_A_Living_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_594_86_TZSMTHISHM_1_22_15_D_Bath_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_594_86_TZSMTHISHM_1_22_15_D_Bath_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_632_84_TZSHZHMRHM_1_20_25_B_Living_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/1_632_84_TZSHZHMRHM_1_20_25_B_Living_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/201_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/201_0_93_TZTNIHIYHM_1_1_2_A_MBed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/202_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/202_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_0_93_TZTNIHIYHM_1_1_2_A_MBed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_113_41_SKSWBPWJPS_1_5_2_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_113_41_SKSWBPWJPS_1_5_2_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_12_86_TZSMTHISHM_1_1_13_A_LivingDining_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_12_86_TZSMTHISHM_1_1_13_A_LivingDining_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_1314_25_SKPPWEPEPE_2_51_8_B_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_1314_25_SKPPWEPEPE_2_51_8_B_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_168_41_SKSWBPWJPS_1_7_1_B_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_168_41_SKSWBPWJPS_1_7_1_B_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_1_20_SKPPWAPXPE_1_15_7_A_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_1_20_SKPPWAPXPE_1_15_7_A_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_632_84_TZSHZHMRHM_1_20_25_B_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/2_632_84_TZSHZHMRHM_1_20_25_B_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_138_7_SEPPWDPXPE_1_5_19_A_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_138_7_SEPPWDPXPE_1_5_19_A_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_156_86_TZSMTHISHM_1_6_12_A_Bath_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_156_86_TZSMTHISHM_1_6_12_A_Bath_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_608_82_TZNITHIOHM_1_117_27_D_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_608_82_TZNITHIOHM_1_117_27_D_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_632_3_OSRJURUXRU_1_31_15_D_MBed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_632_3_OSRJURUXRU_1_31_15_D_MBed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_650_86_TZSMTHISHM_1_24_13_D_LivingDining_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_650_86_TZSMTHISHM_1_24_13_D_LivingDining_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_682_41_SKSWBPWJPS_1_26_11_C_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_682_41_SKSWBPWJPS_1_26_11_C_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_838_27_SKPPWEPXPE_5_95_23_B_Living_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/3_838_27_SKPPWEPXPE_5_95_23_B_Living_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_134_15_SKEYPPEAPE_1_5_32_A_MBed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_134_15_SKEYPPEAPE_1_5_32_A_MBed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_141_15_SKEYPPEAPE_1_6_11_A_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_141_15_SKEYPPEAPE_1_6_11_A_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_609_11_SKBKBPEAPE_1_17_34_D_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/4_609_11_SKBKBPEAPE_1_17_34_D_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_13_22_SKPPWBPEPE_1_14_7_Whole_MBed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_609_11_SKBKBPEAPE_1_17_34_D_Bed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/5_609_11_SKBKBPEAPE_1_17_34_D_Bed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_141_15_SKEYPPEAPE_1_6_11_A_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_141_15_SKEYPPEAPE_1_6_11_A_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_154_44_SSPPWBPEPK_1_12_5_E_Living_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_154_44_SSPPWBPEPK_1_12_5_E_Living_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_179_61_TTNTIHLEHM_1_17_8_C_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_179_61_TTNTIHLEHM_1_17_8_C_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_325_38_SKPPWYPEPE_1_105_13_B_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_325_38_SKPPWYPEPE_1_105_13_B_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_379_11_SKBKBPEAPE_1_11_20_C_Living_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_379_11_SKBKBPEAPE_1_11_20_C_Living_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_637_3_OSRJURUXRU_1_31_20_D_MBed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_637_3_OSRJURUXRU_1_31_20_D_MBed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_651_3_OSRJURUXRU_1_32_8_D_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/6_651_3_OSRJURUXRU_1_32_8_D_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_134_10_SKADBPYRPE_3_25_10_A_Bed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_134_10_SKADBPYRPE_3_25_10_A_Bed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_179_61_TTNTIHLEHM_1_17_8_C_Bed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_179_61_TTNTIHLEHM_1_17_8_C_Bed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_637_3_OSRJURUXRU_1_31_20_D_MBed_7_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/7_637_3_OSRJURUXRU_1_31_20_D_MBed_7_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/8_667_3_OSRJURUXRU_1_32_24_D_Bed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/8_667_3_OSRJURUXRU_1_32_24_D_Bed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_0_24_SKPPWDPXPS_1_1_6_A_LivingDining_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_120_17_SKPDPPERPE_1_5_18_A_MBed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_120_17_SKPDPPERPE_1_5_18_A_MBed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_1346_81_TZMNIHIXHM_1_34_25_E_MBed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_1346_81_TZMNIHIXHM_1_34_25_E_MBed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_134_15_SKEYPPEAPE_1_5_32_A_MBed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_134_15_SKEYPPEAPE_1_5_32_A_MBed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_156_86_TZSMTHISHM_1_6_12_A_Bath_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_156_86_TZSMTHISHM_1_6_12_A_Bath_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_29_44_SSPPWBPEPK_1_2_6_A_MBed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_29_44_SSPPWBPEPK_1_2_6_A_MBed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_651_3_OSRJURUXRU_1_32_8_D_Bed_9_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/clear_structure_noimagine/9_651_3_OSRJURUXRU_1_32_8_D_Bed_9_generated.png",
+        "edit_prompt": "Hong Kong, buildings, clear, restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_10_72_TZDZZHIAHT_1_1_11_F_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_10_72_TZDZZHIAHT_1_1_11_F_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_134_10_SKADBPYRPE_3_25_10_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_134_10_SKADBPYRPE_3_25_10_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_154_44_SSPPWBPEPK_1_12_5_E_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_154_44_SSPPWBPEPK_1_12_5_E_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_304_17_SKPDPPERPE_1_11_34_C_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_304_17_SKPDPPERPE_1_11_34_C_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_700_41_SKSWBPWJPS_1_28_1_C_LivingDining_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_700_41_SKSWBPWJPS_1_28_1_C_LivingDining_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_838_27_SKPPWEPXPE_5_95_23_B_Living_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/0_838_27_SKPPWEPXPE_5_95_23_B_Living_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_111_10_SKADBPYRPE_3_23_25_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_111_10_SKADBPYRPE_3_23_25_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_116_10_SKADBPYRPE_3_24_11_A_Bed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_116_10_SKADBPYRPE_3_24_11_A_Bed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_229_78_TZIDZHMXHM_3_39_26_A_Utility_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_229_78_TZIDZHMXHM_3_39_26_A_Utility_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_280_17_SKPDPPERPE_1_11_10_C_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_280_17_SKPDPPERPE_1_11_10_C_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_304_17_SKPDPPERPE_1_11_34_C_MBed_0_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/100_304_17_SKPDPPERPE_1_11_34_C_MBed_0_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/103_594_86_TZSMTHISHM_1_22_15_D_Bath_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/103_594_86_TZSMTHISHM_1_22_15_D_Bath_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_100_63_TTTSTHHXHM_1_6_12_B_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_100_63_TTTSTHHXHM_1_6_12_B_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_111_10_SKADBPYRPE_3_23_25_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_111_10_SKADBPYRPE_3_23_25_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_116_10_SKADBPYRPE_3_24_11_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_116_10_SKADBPYRPE_3_24_11_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_152_10_SKADBPYRPE_3_25_28_A_Bed_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_152_10_SKADBPYRPE_3_25_28_A_Bed_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_154_44_SSPPWBPEPK_1_12_5_E_Living_1_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/1_154_44_SSPPWBPEPK_1_12_5_E_Living_1_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_10_72_TZDZZHIAHT_1_1_11_F_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_10_72_TZDZZHIAHT_1_1_11_F_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_111_10_SKADBPYRPE_3_23_25_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_111_10_SKADBPYRPE_3_23_25_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_116_10_SKADBPYRPE_3_24_11_A_Bed_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_116_10_SKADBPYRPE_3_24_11_A_Bed_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_838_27_SKPPWEPXPE_5_95_23_B_Living_2_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/2_838_27_SKPPWEPXPE_5_95_23_B_Living_2_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/3_100_63_TTTSTHHXHM_1_6_12_B_Bed_3_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/3_100_63_TTTSTHHXHM_1_6_12_B_Bed_3_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/4_651_3_OSRJURUXRU_1_32_8_D_Bed_4_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/4_651_3_OSRJURUXRU_1_32_8_D_Bed_4_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/5_100_63_TTTSTHHXHM_1_6_12_B_Bed_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/5_100_63_TTTSTHHXHM_1_6_12_B_Bed_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/5_594_86_TZSMTHISHM_1_22_15_D_Bath_5_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/5_594_86_TZSMTHISHM_1_22_15_D_Bath_5_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/6_100_63_TTTSTHHXHM_1_6_12_B_Bed_6_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/6_100_63_TTTSTHHXHM_1_6_12_B_Bed_6_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    },
+    {
+        "input_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/8_637_3_OSRJURUXRU_1_31_20_D_MBed_8_ori.png",
+        "output_image": "/mnt/e/Data/ProjectData/2025.WindowViewPressConference/s1_view_image_beautification/s7_make_datasets/s1_trainingset/image_patches_small/unclear_nostructure_noimagine/8_637_3_OSRJURUXRU_1_31_20_D_MBed_8_generated.png",
+        "edit_prompt": "Hong Kong, buildings, not clear, no restructured facade layouts, no generated contents for distortion"
+    }
+]

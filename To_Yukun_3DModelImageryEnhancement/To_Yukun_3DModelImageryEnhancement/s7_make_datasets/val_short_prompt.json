@@ -1,0 +1,412 @@
+[
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_similar_resolution_no_generation/4_595_80_TZLZZHIOHT_1_210_12_E_MBed_4_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_similar_resolution_no_generation/4_595_80_TZLZZHIOHT_1_210_12_E_MBed_4_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/0_64475_1103126626_9_2_114.13202_22.28045_114.05_206.94056.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/0_64475_1103126626_9_2_114.13202_22.28045_114.05_206.94056.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/2_405_70_TZDXIHXYHM_1_14_29_D_MBed_216_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/2_405_70_TZDXIHXYHM_1_14_29_D_MBed_216_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/0_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_w_content_high_resolution_increased_resolution_correct_generation/0_12_86_TZSMTHISHM_1_1_13_A_LivingDining_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_wo_content_high_resolution_similar_resolution_flatten/0_34013_1103129279_3_2_114.13041_22.27669_140.55_49.93048.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmentable/low_distortion_wo_content_high_resolution_similar_resolution_flatten/0_34013_1103129279_3_2_114.13041_22.27669_140.55_49.93048.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_no_generation/2_1_58_TTISTHHXHM_1_1_3_A_Living_69_ori_1.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_no_generation/2_1_58_TTISTHHXHM_1_1_3_A_Living_69_generated_1.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and decreasing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_no_generation/6_11_61_TTNTIHLEHM_1_1_13_A_Bed_6_ori_1.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_no_generation/6_11_61_TTNTIHLEHM_1_1_13_A_Bed_6_generated_1.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and decreasing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_correct_generation/1_64487_1103126626_13_2_114.13209_22.28062_114.05_206.64459.png_1_ori_1.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/augmented/low_distortion_w_content_high_resolution_decreased_resolution_correct_generation/1_64487_1103126626_13_2_114.13209_22.28062_114.05_206.64459.png_1_generated_1.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and decreasing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_correct_generation/2_614_32_SKPPWKPXPS_1_15_45_B_MBed_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_correct_generation/2_614_32_SKPPWKPXPS_1_15_45_B_MBed_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_no_generation/0_16381_1103128665_3_1_114.13244_22.2777_132.2_162.08339.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_no_generation/0_16381_1103128665_3_1_114.13244_22.2777_132.2_162.08339.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_92678_1103126862_1_2_114.13954_22.2803_184.05_353.30887.png_98_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_92678_1103126862_1_2_114.13954_22.2803_184.05_353.30887.png_98_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_481_47_SSPPWDPEPE_1_17_7_C_Dining_38_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_481_47_SSPPWDPEPE_1_17_7_C_Dining_38_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_708653_1103123188_5_2_114.14253_22.28511_45.65_2.14909.png_84_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_708653_1103123188_5_2_114.14253_22.28511_45.65_2.14909.png_84_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_1021_29_SKPPWGPEPE_2_256_24_C_MBed_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_1021_29_SKPPWGPEPE_2_256_24_C_MBed_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_34011_1103129279_2_3_114.13042_22.2767_162.8_143.84602.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_34011_1103129279_2_3_114.13042_22.2767_162.8_143.84602.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_341_16_SKKYGPBEPE_1_18_5_C_Kitchen_47_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_341_16_SKKYGPBEPE_1_18_5_C_Kitchen_47_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_707849_1103124666_17_2_114.13126_22.28311_31.6_321.02334.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_707849_1103124666_17_2_114.13126_22.28311_31.6_321.02334.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_107_66_TZDSIHSXDT_1_9_12_E_Kitchen_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_107_66_TZDSIHSXDT_1_9_12_E_Kitchen_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_34142_1103129398_5_2_114.13056_22.2766_143.4_52.17485.png_185_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_34142_1103129398_5_2_114.13056_22.2766_143.4_52.17485.png_185_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_65830_1103126477_10_1_114.12799_22.28089_16.8_6.82447.png_415_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/1_65830_1103126477_10_1_114.12799_22.28089_16.8_6.82447.png_415_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/2_244_58_TTISTHHXHM_1_10_12_C_Bed_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_correct_generation/2_244_58_TTISTHHXHM_1_10_12_C_Bed_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_66257_1103128527_1_2_114.13208_22.27789_135.75_89.70993.png_93_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_66257_1103128527_1_2_114.13208_22.27789_135.75_89.70993.png_93_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_64565_1103126929_21_2_114.13174_22.28022_113.75_29.57422.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_64565_1103126929_21_2_114.13174_22.28022_113.75_29.57422.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_64622_1103127221_3_2_114.13174_22.27971_123.05_202.49685.png_53_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_64622_1103127221_3_2_114.13174_22.27971_123.05_202.49685.png_53_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_708980_1103124815_6_2_114.13108_22.28279_30.45_182.66273.png_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_708980_1103124815_6_2_114.13108_22.28279_30.45_182.66273.png_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_705872_1103124604_1_2_114.13106_22.28316_31.6_319.28545.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_705872_1103124604_1_2_114.13106_22.28316_31.6_319.28545.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_357_39_SKSBPPAOPS_3_136_29_B3_Bed_3_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_357_39_SKSBPPAOPS_3_136_29_B3_Bed_3_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/4_707102_1103124659_1_2_114.131_22.28311_31.1_319.28485.png_4_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/4_707102_1103124659_1_2_114.131_22.28311_31.1_319.28485.png_4_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/8_20_92_TZTMTHMJZM_1_4_20_A_Bath_8_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/8_20_92_TZTMTHMJZM_1_4_20_A_Bath_8_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_1_15_SKEYPPEAPE_1_1_11_A_Bed_51_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_1_15_SKEYPPEAPE_1_1_11_A_Bed_51_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_92705_1103126862_10_2_114.13946_22.28027_184.05_49.67263.png_70_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_92705_1103126862_10_2_114.13946_22.28027_184.05_49.67263.png_70_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_1_16_SKKYGPBEPE_1_1_5_A_Kitchen_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_1_16_SKKYGPBEPE_1_1_5_A_Kitchen_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_539_16_SKKYGPBEPE_1_27_23_D_MBed_170_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_539_16_SKKYGPBEPE_1_27_23_D_MBed_170_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/6_131_50_SSPPWGPEPK_1_4_24_A_MBath_6_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/6_131_50_SSPPWGPEPK_1_4_24_A_MBath_6_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_122_63_TTTSTHHXHM_1_7_11_B_LivingDining_107_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_122_63_TTTSTHHXHM_1_7_11_B_LivingDining_107_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_16406_1103128700_3_2_114.1323_22.27758_149.6_246.78397.png_3_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_16406_1103128700_3_2_114.1323_22.27758_149.6_246.78397.png_3_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_46_88_TZTMTHMJDM_1_2_29_A_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_46_88_TZTMTHMJDM_1_2_29_A_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_495_80_TZLZZHIOHT_1_206_12_D_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_495_80_TZLZZHIOHT_1_206_12_D_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_30_65_TZDITHSYTM_1_11_31_1_Kitchen_122_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_30_65_TZDITHSYTM_1_11_31_1_Kitchen_122_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_343_88_TZTMTHMJDM_1_26_13_D_Bed_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_343_88_TZTMTHMJDM_1_26_13_D_Bed_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_64493_1103126626_15_2_114.13215_22.28069_114.05_27.10756.png_50_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_64493_1103126626_15_2_114.13215_22.28069_114.05_27.10756.png_50_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_629_93_TZTNIHIYHM_1_17_22_B_Utility_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_629_93_TZTNIHIYHM_1_17_22_B_Utility_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_34013_1103129279_3_2_114.13041_22.27669_140.55_49.93048.png_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/2_34013_1103129279_3_2_114.13041_22.27669_140.55_49.93048.png_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_68504_1103125003_8_2_114.12996_22.28271_38.85_57.887.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/0_68504_1103125003_8_2_114.12996_22.28271_38.85_57.887.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_705872_1103124604_1_2_114.13106_22.28316_31.6_319.28545.png_3_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/3_705872_1103124604_1_2_114.13106_22.28316_31.6_319.28545.png_3_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_78_10_SKADBPYRPE_3_22_11_A_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/1_78_10_SKADBPYRPE_3_22_11_A_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/4_606_25_SKPPWEPEPE_2_38_28_A_Maid_4_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_similar_resolution_no_generation/4_606_25_SKPPWEPEPE_2_38_28_A_Maid_4_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/2_410_80_TZLZZHIOHT_1_203_2_D_Bed_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/2_410_80_TZLZZHIOHT_1_203_2_D_Bed_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/0_16438_1103128746_6_1_114.13212_22.27749_132.2_66.19217.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/0_16438_1103128746_6_1_114.13212_22.27749_132.2_66.19217.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/2_89188_1103124570_23_1_114.14117_22.28315_94.4_9.54824.png_44_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_correct_generation/2_89188_1103124570_23_1_114.14117_22.28315_94.4_9.54824.png_44_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/2_825_83_TZSHZHMAHM_2_35_34_A_MBed_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/2_825_83_TZSHZHMAHM_2_35_34_A_MBed_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_80812_1103123485_3_1_114.14583_22.28465_72.7_2.92839.png_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_80812_1103123485_3_1_114.14583_22.28465_72.7_2.92839.png_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_154_44_SSPPWBPEPK_1_12_5_E_Living_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_154_44_SSPPWBPEPK_1_12_5_E_Living_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/6_662_25_SKPPWEPEPE_2_39_28_B_Maid_6_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/6_662_25_SKPPWEPEPE_2_39_28_B_Maid_6_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/0_21_10_SKADBPYRPE_2_14_7_B_Bed_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/0_21_10_SKADBPYRPE_2_14_7_B_Bed_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_1666_93_TZTNIHIYHM_1_46_3_G_Utility_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_similar_resolution_flatten/1_1666_93_TZTNIHIYHM_1_46_3_G_Utility_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/5_959_5_OSRRQRUXUU_4_127_29_B_Living_5_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/5_959_5_OSRRQRUXUU_4_127_29_B_Living_5_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/7_928_80_TZLZZHIOHT_1_224_2_H_Bed_7_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/7_928_80_TZLZZHIOHT_1_224_2_H_Bed_7_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/1_631_86_TZSMTHISHM_1_23_23_D_Utility_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/1_631_86_TZSMTHISHM_1_23_23_D_Utility_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_88804_1103124484_5_1_114.14261_22.28319_114.2_15.95625.png_69_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_88804_1103124484_5_1_114.14261_22.28319_114.2_15.95625.png_69_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_67159_1810147913_15_1_114.14142_22.28098_163.0_1.71034.png_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_67159_1810147913_15_1_114.14142_22.28098_163.0_1.71034.png_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/4_66259_1103128527_2_1_114.13205_22.27782_132.2_179.53363.png_346_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/4_66259_1103128527_2_1_114.13205_22.27782_132.2_179.53363.png_346_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_56960_1109959236_12_2_114.14258_22.28415_82.1_19.70523.png_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_56960_1109959236_12_2_114.14258_22.28415_82.1_19.70523.png_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_66304_1103128559_5_1_114.13228_22.27786_138.3_269.86566.png_62_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_66304_1103128559_5_1_114.13228_22.27786_138.3_269.86566.png_62_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/6_1494_93_TZTNIHIYHM_1_38_47_F_Bed_6_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/6_1494_93_TZTNIHIYHM_1_38_47_F_Bed_6_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/6_64622_1103127221_3_2_114.13174_22.27971_123.05_202.49685.png_6_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/6_64622_1103127221_3_2_114.13174_22.27971_123.05_202.49685.png_6_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_66205_1103128342_8_1_114.13236_22.27806_138.3_160.28818.png_76_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_66205_1103128342_8_1_114.13236_22.27806_138.3_160.28818.png_76_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_82868_1103127291_4_2_114.13167_22.27954_122.35_21.71162.png_2_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/2_82868_1103127291_4_2_114.13167_22.27954_122.35_21.71162.png_2_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/1_31_4_OSRRQRUXOU_1_3_10_A_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/1_31_4_OSRRQRUXOU_1_3_10_A_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_497_20_SKPPWAPXPE_1_32_7_C_MBed_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_correct_generation/0_497_20_SKPPWAPXPE_1_32_7_C_MBed_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_no_generation/1_651_72_TZDZZHIAHT_1_24_14_H_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_w_content_low_resolution_increased_resolution_no_generation/1_651_72_TZDZZHIAHT_1_24_14_H_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_no_generation/0_825_83_TZSHZHMAHM_2_35_34_A_MBed_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_no_generation/0_825_83_TZSHZHMAHM_2_35_34_A_MBed_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_no_generation/0_240_95_TZXXIHMXDT_1_7_4_A_MBath_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_no_generation/0_240_95_TZXXIHMXDT_1_7_4_A_MBath_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_64643_1103127151_4_2_114.13178_22.27979_124.15_20.60141.png_150_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_64643_1103127151_4_2_114.13178_22.27979_124.15_20.60141.png_150_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_1897_81_TZMNIHIXHM_1_48_47_F_Kitchen_0_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/high_distortion_w_content_low_resolution_similar_resolution_correct_generation/0_1897_81_TZMNIHIXHM_1_48_47_F_Kitchen_0_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and maintaining the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_259_7_SEPPWDPXPE_1_9_16_C_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_259_7_SEPPWDPXPE_1_9_16_C_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/3_746_62_TTSDZHIVHT_2_57_28_A_Bed_3_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/3_746_62_TTSDZHIVHT_2_57_28_A_Bed_3_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/0_66239_1103128343_3_2_114.13204_22.27809_143.75_43.0801.png_42_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/0_66239_1103128343_3_2_114.13204_22.27809_143.75_43.0801.png_42_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_155_24_SKPPWDPXPS_1_10_11_B_Bath_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_155_24_SKPPWDPXPS_1_10_11_B_Bath_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/4_249_7_SEPPWDPXPE_1_9_6_C_Bed_4_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/4_249_7_SEPPWDPXPE_1_9_6_C_Bed_4_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/2_157_46_SSPPWBPXPS_1_4_12_B_Living_176_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/2_157_46_SSPPWBPXPS_1_4_12_B_Living_176_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    },
+    {
+        "input_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_21_91_TZTMTHMJTM_1_2_20_A_Bed_1_ori.png",
+        "output_image": "/lustre1/g/rec_fx/data_processing/diffusers/train_set/unaugmented/low_distortion_wo_content_low_resolution_increased_resolution_flatten/1_21_91_TZTMTHMJTM_1_2_20_A_Bed_1_generated.png",
+        "edit_prompt": "Edit the image generated from 3D photorealistic city models in Hong Kong by reducing distortion in building structures and enhancing the resolution, "
+    }
+]

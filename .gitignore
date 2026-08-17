@@ -1,0 +1,8 @@
+# Do not upload compressed archives or PowerPoint files.
+**/*.zip
+**/*.ppt
+**/*.pptx
+
+# Local presentation-rendering artifacts.
+.ppt_read/
+20250328_WindowViews_Beautification_FinetunedModels/
