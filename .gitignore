@@ -6,3 +6,7 @@
 # Local presentation-rendering artifacts.
 .ppt_read/
 20250328_WindowViews_Beautification_FinetunedModels/
+
+# Python-generated caches.
+**/__pycache__/
+**/*.py[cod]

@@ -7,6 +7,7 @@
   "val_list": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/ImageSet/val.txt",
   "checkpoint": "checkpoint_best.pth",
   "checkpoint_role": "LoRA/SAM distortion-segmentation checkpoint used as --lora_ckpt",
+  "sam_base_checkpoint": "sam_vit_b_01ec64.pth",
   "model": {
     "vit_name": "vit_b",
     "rank": 4,
@@ -26,7 +27,7 @@
   },
   "notes": [
     "Paths are relative to the repository root.",
-    "The SAM base checkpoint is not included; provide it through --ckpt.",
+    "The SAM base checkpoint is included and should be supplied through --ckpt.",
     "The original zip archive and PPT/PPTX files remain intentionally excluded from Git."
   ]
 }

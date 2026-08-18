@@ -13,6 +13,6 @@ archive. The original archive is intentionally not tracked by Git.
   the checkpoint/model settings used by the supplied scripts.
 
 The supplied `checkpoint_best.pth` is a project checkpoint intended for the
-LoRA/SAM path (`pred_view_distortion.py --lora_ckpt`). The corresponding SAM
-base checkpoint is not included in this repository and must be supplied with
-`--ckpt` in the original training environment.
+LoRA/SAM path (`pred_view_distortion.py --lora_ckpt`). The matching SAM ViT-B
+base checkpoint is now available at the repository root as
+`sam_vit_b_01ec64.pth` and should be supplied with `--ckpt`.
