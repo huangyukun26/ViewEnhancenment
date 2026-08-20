@@ -13,3 +13,5 @@
 
 # Optional local research runtime.
 .research_runtime/
+.research_cache/
+.model_cache/

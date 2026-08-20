@@ -1,0 +1,97 @@
+{
+  "proxy_summary_all": [
+    {
+      "row_type": "summary",
+      "method": "B1_unsharp_weak",
+      "degradation": "all",
+      "sample_id": "",
+      "split": "all",
+      "severity": "",
+      "masked_psnr": "18.514374",
+      "masked_psnr_median": "17.755052",
+      "masked_ssim": "0.431278",
+      "masked_ssim_median": "0.439464",
+      "masked_lpips": "0.385339",
+      "masked_lpips_median": "0.377137",
+      "win_rate_vs_identity": "0.325000",
+      "n": "120"
+    },
+    {
+      "row_type": "summary",
+      "method": "Identity",
+      "degradation": "all",
+      "sample_id": "",
+      "split": "all",
+      "severity": "",
+      "masked_psnr": "18.990752",
+      "masked_psnr_median": "18.561744",
+      "masked_ssim": "0.445884",
+      "masked_ssim_median": "0.474211",
+      "masked_lpips": "0.398605",
+      "masked_lpips_median": "0.386977",
+      "win_rate_vs_identity": "0.000000",
+      "n": "120"
+    },
+    {
+      "row_type": "summary",
+      "method": "R1_NAFNet",
+      "degradation": "all",
+      "sample_id": "",
+      "split": "all",
+      "severity": "",
+      "masked_psnr": "16.337308",
+      "masked_psnr_median": "16.595390",
+      "masked_ssim": "0.375025",
+      "masked_ssim_median": "0.314034",
+      "masked_lpips": "0.491563",
+      "masked_lpips_median": "0.466287",
+      "win_rate_vs_identity": "0.266667",
+      "n": "120"
+    },
+    {
+      "row_type": "summary",
+      "method": "R2_LaMa",
+      "degradation": "all",
+      "sample_id": "",
+      "split": "all",
+      "severity": "",
+      "masked_psnr": "20.951696",
+      "masked_psnr_median": "19.859786",
+      "masked_ssim": "0.601657",
+      "masked_ssim_median": "0.651313",
+      "masked_lpips": "0.172613",
+      "masked_lpips_median": "0.140012",
+      "win_rate_vs_identity": "0.550000",
+      "n": "120"
+    },
+    {
+      "row_type": "summary",
+      "method": "reference_oracle",
+      "degradation": "all",
+      "sample_id": "",
+      "split": "all",
+      "severity": "",
+      "masked_psnr": "99.000000",
+      "masked_psnr_median": "99.000000",
+      "masked_ssim": "1.000000",
+      "masked_ssim_median": "1.000000",
+      "masked_lpips": "0.000000",
+      "masked_lpips_median": "0.000000",
+      "win_rate_vs_identity": "1.000000",
+      "n": "120"
+    }
+  ],
+  "showcase": {
+    "rows": 154,
+    "samples": 24,
+    "final_abstain": 28,
+    "final_route_counts": {
+      "R1_NAFNet": 10,
+      "R2_LaMa": 6,
+      "abstain": 28,
+      "reference": 4
+    },
+    "sam_manual_iou_mean": 0.9031280466666667,
+    "reference_reliable_samples": 26
+  }
+}

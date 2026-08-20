@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "device": "cuda",
+  "backends": {
+    "R1_NAFNet": {
+      "official_repo": "https://github.com/megvii-research/NAFNet",
+      "repo_commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "checkpoint": ".model_cache\\NAFNet-GoPro-width32.pth",
+      "checkpoint_bytes": 68671121,
+      "configuration": "width32 GoPro NAFNet"
+    },
+    "R2_LaMa": {
+      "official_repo": "https://github.com/advimman/lama",
+      "repo_commit": "786f5936b27fb3dacd2b1ad799e4de968ea697e7",
+      "checkpoint": ".model_cache\\big-lama\\big-lama\\models\\best.ckpt",
+      "checkpoint_bytes": 410046389,
+      "configuration": "big-lama, context crop, max_side=512",
+      "stochastic": false
+    }
+  },
+  "brushnet": {
+    "status": "not_used",
+    "reason": "official BrushNet requires an additional SD base and large checkpoint; LaMa was used as the allowed real inpainting fallback on the 6GB GPU.",
+    "official_repo": "https://github.com/TencentARC/BrushNet"
+  },
+  "result_rows": 120
+}

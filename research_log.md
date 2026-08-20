@@ -30,3 +30,24 @@
 - 结果变化：24 张 showcase 的人工/SAM Dice=`0.92645`。三 seed 的 mask 内 RGB 输出标准差均值为 B0=`0`、B1=`0`、G-lite=`1.145`、Ours=`0`（G-lite 最大=`1.316`）；guard 在本轮保守地选择了不随 seed 变化的候选。已生成完整 showcase、局部 zoom 和 failure-case 图。未安装 MUSIQ/CLIP-IQA，未用无参考分数替代视觉结论；人工失败图用于逐张复核，当前未将“修复不足”伪装成有 GT 的数值率。
 - 是否保留：保留严格 soft-mask 合成、固定 showcase、SAM 与人工 mask 对照、proxy GT 仅作域内 sanity check 和 guard selection；放弃 G-lite 作为当前主修复器，不把 proxy PSNR 当作真实 Open3DHK GT 结论。
 - 下一步：优先接入一个真实可运行的 NAFNet/去模糊 checkpoint 和一个真实 mask-aware inpainting backend；在同一 24 张 showcase 上比较局部质量与失败率。若没有真实 Open3DHK clean GT，只报告边界色差、结构断裂、多 seed 方差和人工失败统计，不声称真实像素质量已被 PSNR 证明提升。
+
+## 2026-08-20 - restoration_v2 P0 严格 proxy 30 对检查
+
+- 实验假设：只有在退化严格限制于精确 mask、clean 区域本身有建筑纹理且 input/clean 差异足够明显时，proxy 指标才可用于筛选真实恢复模型。
+- 修改内容：新建 `research/restoration_v2/` 和独立 `research/data/restoration_v2_proxy_pairs.csv`；生成 `blur_downsample`、`smear_warp`、`repeat_missing` 各 10 对，退化按 `distorted=M*degraded+(1-M)*clean` 构造，并按 source group 划分 train/val。
+- 失败或成功现象：首次 source-group 解析把 annotation 文件名中的数字误识别为组名，导致 30 对只有 3 个组且 val=0；已修正为识别 10 位大写组标识并重新生成。当前 30 对为 28 train / 2 val、3 类各 10 对。
+- 原因判断：人工网格检查显示 clean patch 主要包含楼体、窗户或立面纹理；mask 内 blur、局部 warp、重复/缺失块均肉眼可见，mask 外未引入退化。仍需在 120 对上做正式统计，30 对只作为数据质量 gate。
+- 结果变化：仅定性观察；未将这 30 对当作最终模型指标，也未使用上一轮 toy proxy 作为本轮恢复模型。
+- 是否保留：保留 v2 数据生成路线；上一轮 `research/outputs/restoration/` 结果保持不变。
+- 下一步：扩展到 120 对，加载官方 NAFNet-GoPro-width32 和官方 LaMa big-lama checkpoint，先在固定 showcase 和 proxy val 上跑真实模型。
+
+## 2026-08-20 - restoration_v2 P0 扩展与真实后端 P1 烟测
+
+- 实验假设：严格 mask 内的 paired proxy 可以先判断恢复模型是否真的修复局部退化；真实 Open3DHK 则必须同时检查视觉保真和 mask 外逐像素不变。
+- 修改内容：将 proxy 扩展为 120 对（`blur_downsample`、`smear_warp`、`repeat_missing` 各 40），加入官方 NAFNet GoPro-width32 和官方 LaMa big-lama 推理脚本；LaMa 使用 mask bounding-box 加上下文 crop，两个模型输出都经过 soft composite。
+- 失败或成功现象：NAFNet 和 LaMa 均在 RTX 3060 6GB 上成功加载并推理；BrushNet 本轮未接入，因为官方路径还需要额外的 Stable Diffusion base 和较大 BrushNet checkpoint，选择真实 LaMa 作为允许的 fallback，未用滤波器冒充生成模型。
+- 原因判断：8 张 partial-mask showcase 的人工烟测中，NAFNet 输出大多接近输入，未形成稳定肉眼正向修复；LaMa 能真实改变 mask 内内容，但抽查中出现平坦纹理、纹理重画和材质/结构不一致，当前不能作为保真主方法。因此按预设 Go/No-Go 停止扩大生成式分支，保留其真实失败输出供审核。
+- 结果变化：proxy 120 对的初步汇总已生成。Identity 的 masked PSNR/SSIM/LPIPS 均值为 `18.9908/0.4459/0.3986`；R1 NAFNet 为 `16.3373/0.3750/0.4916`；R2 LaMa 为 `20.9517/0.6017/0.1726`。LaMa 在严格配对 proxy 上有较好的数值表现，但不能抵消其在真实 Open3DHK 上的结构/材质漂移；因此 proxy 结果只作域内参考，不替代真实 showcase 结论。所有真实后端的允许区域外最大像素误差保持 `0`。
+- 结果变化：同建筑候选检索使用当前本地可用的 220 张 annotation images，以 SIFT descriptor + RANSAC homography 做透明 fallback；24 张 showcase 中 13 张达到 `inliers>=8、inlier_ratio>=0.2、coverage>=0.03` 的可靠对齐，超过继续验证所需的 6 张。其余样本记录为无候选或弱 homography，未强行融合。
+- 是否保留：保留严格 proxy、真实 NAFNet/LaMa 代码、SIFT/RANSAC 参考分支、固定 24 张 showcase、blind grid、failure cases 和空 `human_preference.csv`；不把 LaMa 在 proxy 上的优势写成 Open3DHK 真实提升，也不把 R1 的接近输入输出称作已验证 enhancement。
+- 下一步：以 reference warp 的 13 个可靠样本作为下一轮可延伸方向；本轮最终报告以 `open3dhk_full_grid.png`、`open3dhk_zoom_grid.png` 和失败案例为主。若要得到真正的 Open3DHK 像素质量提升，下一轮需要更可靠的同建筑参考筛选/融合或具备真实建筑数据训练的恢复模型，而不是继续调低强度掩盖 LaMa 漂移。
