@@ -10,3 +10,6 @@
 # Python-generated caches.
 **/__pycache__/
 **/*.py[cod]
+
+# Optional local research runtime.
+.research_runtime/

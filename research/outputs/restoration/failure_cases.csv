@@ -1,0 +1,7 @@
+sample_id,failure_rank_score,manual_sam_iou,reason
+showcase_22_40_44_SSPPWBPEPK_1_2_17_A_MBed_114.152675_22.280637_116.9946_30.090764,1.0035836036042798,0.0,low mask agreement and/or high guard score; qualitative inspection required
+showcase_23_203_13_SKEBGPEXPE_1_8_1_B_Living_114.148057_22.281298_157.79_9.094576,0.463789596113643,0.5397940074906367,low mask agreement and/or high guard score; qualitative inspection required
+showcase_14_322_73_TZHSTHMYHM_2_108_16_1_Kitchen_114.151702_22.278596_198.2771_116.042403,0.26903857832091826,0.7345450252833614,low mask agreement and/or high guard score; qualitative inspection required
+showcase_17_637_3_OSRJURUXRU_1_31_20_D_MBed_114.151034_22.279006_200.6628_25.908724,0.13557672533907272,0.868006878265207,low mask agreement and/or high guard score; qualitative inspection required
+showcase_13_1332_56_SSPPWYPXPS_1_26_18_G_Living_114.133475_22.285613_89.834_14.049906,0.12197840702973707,0.8816051965745426,low mask agreement and/or high guard score; qualitative inspection required
+showcase_10_332_11_SKBKBPEAPE_1_10_9_B_Living_114.148944_22.280819_177.7997_124.083485,0.08521278426872438,0.9183708193355553,low mask agreement and/or high guard score; qualitative inspection required

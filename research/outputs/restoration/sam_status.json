@@ -1,0 +1,18 @@
+{
+  "checkpoints_loaded": true,
+  "base_checkpoint_bytes": 375042383,
+  "lora_checkpoint_bytes": 15784103,
+  "base_state_keys": 314,
+  "lora_state_keys": 173,
+  "embedding_size": 32,
+  "device": "cpu",
+  "p0": {
+    "count": 12,
+    "mean_iou": 0.8189634098083342,
+    "mean_dice": 0.8257257485987588
+  },
+  "showcase": {
+    "count": 24,
+    "mean_sam_ratio": 0.5243428495833333
+  }
+}

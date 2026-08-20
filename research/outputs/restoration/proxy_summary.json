@@ -1,0 +1,62 @@
+{
+  "train": {
+    "B0_identity": {
+      "count": 40,
+      "masked_psnr_mean": 28.594072647744646,
+      "masked_ssim_mean": 0.582927574677264,
+      "masked_l1_mean": 16.318985414034252,
+      "outside_max_abs_max": 0
+    },
+    "B1_deterministic": {
+      "count": 40,
+      "masked_psnr_mean": 28.078722797937893,
+      "masked_ssim_mean": 0.5748500451151795,
+      "masked_l1_mean": 18.672216915613536,
+      "outside_max_abs_max": 0
+    },
+    "G_lite_stochastic_proxy": {
+      "count": 40,
+      "masked_psnr_mean": 24.783456100022182,
+      "masked_ssim_mean": 0.5720612290863551,
+      "masked_l1_mean": 17.867725893855095,
+      "outside_max_abs_max": 0
+    },
+    "Ours_guard_selected": {
+      "count": 40,
+      "masked_psnr_mean": 28.592920655235286,
+      "masked_ssim_mean": 0.5826565423985496,
+      "masked_l1_mean": 16.327370023256663,
+      "outside_max_abs_max": 0
+    }
+  },
+  "val": {
+    "B0_identity": {
+      "count": 10,
+      "masked_psnr_mean": 33.587398503425185,
+      "masked_ssim_mean": 0.7165841704444252,
+      "masked_l1_mean": 16.061740526556967,
+      "outside_max_abs_max": 0
+    },
+    "B1_deterministic": {
+      "count": 10,
+      "masked_psnr_mean": 33.64618127816352,
+      "masked_ssim_mean": 0.7098844205040187,
+      "masked_l1_mean": 17.396503052115442,
+      "outside_max_abs_max": 0
+    },
+    "G_lite_stochastic_proxy": {
+      "count": 10,
+      "masked_psnr_mean": 26.62351558386525,
+      "masked_ssim_mean": 0.6955261623831565,
+      "masked_l1_mean": 17.3164479970932,
+      "outside_max_abs_max": 0
+    },
+    "Ours_guard_selected": {
+      "count": 10,
+      "masked_psnr_mean": 33.587398503425185,
+      "masked_ssim_mean": 0.7165841704444252,
+      "masked_l1_mean": 16.061740526556967,
+      "outside_max_abs_max": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "count": 24,
+  "manual_sam_iou_mean": 0.9031280475749662,
+  "manual_sam_dice_mean": 0.9264532724276279,
+  "multi_seed_output_variance_mean_rgb": {
+    "B0_identity": 0.0,
+    "B1_deterministic": 0.0,
+    "G_lite_stochastic_proxy": 1.1450025290250778,
+    "Ours_guard_selected": 0.0
+  },
+  "multi_seed_output_variance_max_rgb": {
+    "B0_identity": 0.0,
+    "B1_deterministic": 0.0,
+    "G_lite_stochastic_proxy": 1.3156068325042725,
+    "Ours_guard_selected": 0.0
+  },
+  "mask_source": [
+    "SAM_LoRA_cpu"
+  ],
+  "generation_backend": "G-lite stochastic proxy; no diffusion checkpoint/backend was available in this short cycle",
+  "b3_previous_method": "not run on this fixed annotation showcase because there is no same-view paired previous output"
+}
