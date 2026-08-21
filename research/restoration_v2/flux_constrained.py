@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import random
 import sys
 import time
@@ -169,7 +170,16 @@ def _load_pipeline(model_path: Path):
         dtype = torch.float32
     pipe = Flux2KleinPipeline.from_pretrained(str(model_path), torch_dtype=dtype)
     if torch.cuda.is_available():
-        pipe.enable_model_cpu_offload()
+        # The original local target has 6GB VRAM, but the cloud V100 used for
+        # this experiment has 32GB. Keep the small-GPU fallback while using
+        # the full GPU when it is safe; otherwise inference becomes needlessly
+        # CPU-bound (and can take over a minute for only four denoising steps).
+        vram_gib = torch.cuda.get_device_properties(0).total_memory / (1024**3)
+        force_full_gpu = os.environ.get("FLUX_FULL_GPU", "").lower() in {"1", "true", "yes"}
+        if force_full_gpu or vram_gib >= 20:
+            pipe.to("cuda")
+        else:
+            pipe.enable_model_cpu_offload()
     return pipe, torch
 
 
