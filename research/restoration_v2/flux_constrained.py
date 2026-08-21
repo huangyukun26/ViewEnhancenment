@@ -159,7 +159,14 @@ def _load_pipeline(model_path: Path):
     import torch
     from diffusers import Flux2KleinPipeline
 
-    dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+    # FLUX.2 examples use bfloat16, but V100 (SM 7.0) has no native BF16
+    # support.  Select fp16 there so the provided 32GB V100 can actually run
+    # the official checkpoint; newer GPUs keep the documented bfloat16 path.
+    if torch.cuda.is_available():
+        major, _minor = torch.cuda.get_device_capability()
+        dtype = torch.bfloat16 if major >= 8 else torch.float16
+    else:
+        dtype = torch.float32
     pipe = Flux2KleinPipeline.from_pretrained(str(model_path), torch_dtype=dtype)
     if torch.cuda.is_available():
         pipe.enable_model_cpu_offload()
