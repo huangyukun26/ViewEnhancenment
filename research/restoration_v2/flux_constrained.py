@@ -221,6 +221,7 @@ def _write_commands() -> None:
         "```powershell\n"
         "& 'C:\\Users\\LENOVO\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' research/restoration_v2/flux_constrained.py --quick6 research/data/flux_quick6.csv\n"
         "```\n\n"
+        "For a remote run while preserving the blocker artifacts, add `--output-dir research/outputs/restoration_v2/flux_constrained_cloud_v100`.\n\n"
         "With a locally provisioned official checkpoint (do not commit weights):\n\n"
         "```powershell\n"
         "$env:KLEIN_4B_MODEL_PATH='D:\\path\\to\\FLUX.2-klein-4B'\n"
@@ -238,8 +239,12 @@ def main() -> None:
     parser.add_argument("--context", type=int, default=128)
     parser.add_argument("--feather", type=int, default=4)
     parser.add_argument("--steps", type=int, default=4)
+    parser.add_argument("--output-dir", type=Path, default=None, help="Optional separate output directory for a remote/cloud run.")
     args = parser.parse_args()
     quick6_path = args.quick6 if args.quick6.is_absolute() else ROOT / args.quick6
+    global OUT
+    if args.output_dir is not None:
+        OUT = args.output_dir if args.output_dir.is_absolute() else ROOT / args.output_dir
     OUT.mkdir(parents=True, exist_ok=True)
     _write_commands()
     rows = _read_rows(quick6_path)
