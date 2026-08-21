@@ -300,7 +300,7 @@ def _na_tile(label: str, size: tuple[int, int] = (320, 300)) -> Image.Image:
     return tile
 
 
-def _load_fill_pipeline(model_path: Path):
+def _load_fill_pipeline(model_path: Path, cpu_offload: bool = False):
     import torch
     from diffusers import FluxFillPipeline
 
@@ -309,10 +309,28 @@ def _load_fill_pipeline(model_path: Path):
         dtype = torch.bfloat16 if major >= 8 else torch.float16
     else:
         dtype = torch.float32
+    if torch.cuda.is_available() and cpu_offload:
+        # The Fill checkpoint is larger than a 32 GB V100 once activations are
+        # included.  A 16 GB host cannot hold a second full copy, so let
+        # Accelerate place the transformer on CUDA and text encoders on CPU
+        # without first materializing the complete state dict in host RAM.
+        offload_dir = model_path.parent / "flux_fill_disk_offload"
+        offload_dir.mkdir(parents=True, exist_ok=True)
+        pipe = FluxFillPipeline.from_pretrained(
+            str(model_path),
+            torch_dtype=dtype,
+            device_map="balanced",
+            max_memory={0: "28GiB", "cpu": "12GiB"},
+            offload_folder=str(offload_dir),
+            offload_state_dict=True,
+            low_cpu_mem_usage=True,
+        )
+        return pipe, torch
+
     pipe = FluxFillPipeline.from_pretrained(str(model_path), torch_dtype=dtype)
     if torch.cuda.is_available():
         vram_gib = torch.cuda.get_device_properties(0).total_memory / (1024**3)
-        if vram_gib >= 20:
+        if vram_gib >= 20 and not cpu_offload:
             pipe.to("cuda")
         else:
             pipe.enable_model_cpu_offload()
@@ -389,6 +407,11 @@ def main() -> None:
     parser.add_argument("--fill-model-path", type=Path, default=None)
     parser.add_argument("--fill-blocker-note", type=str, default="", help="Record an externally verified Fill access blocker without running a fake backend.")
     parser.add_argument("--fill-steps", type=int, default=50)
+    parser.add_argument(
+        "--cpu-offload",
+        action="store_true",
+        help="Keep the Fill pipeline weights on CPU and offload layers to CUDA during inference.",
+    )
     parser.add_argument("--context", type=int, default=128)
     parser.add_argument("--feather", type=int, default=4)
     parser.add_argument("--smoke-only", action="store_true")
@@ -410,7 +433,7 @@ def main() -> None:
         fill_blockers.append(args.fill_blocker_note)
     elif not args.no_fill and fill_path is not None and fill_path.exists():
         try:
-            fill_pipe, fill_torch = _load_fill_pipeline(fill_path)
+            fill_pipe, fill_torch = _load_fill_pipeline(fill_path, cpu_offload=args.cpu_offload)
             fill_status = "flux1_fill_diffusers"
         except Exception as exc:
             fill_status = "blocked_pipeline_load"

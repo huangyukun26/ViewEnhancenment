@@ -94,3 +94,12 @@
 - 失败或成功现象：官方 `FluxFillPipeline` 可导入，但无凭据下载 `black-forest-labs/FLUX.1-Fill-dev` 返回 `GatedRepoError: 401 Unauthorized`，提示需要认证和许可证接受。单次 Fill smoke 被准确记录为 `blocked_external_access`；正式 Fill 调用数=`0`，结构锚点额外调用数=`0`，没有用 FLUX.2 或 identity 冒充 Fill/4-seed 结果。
 - 是否保留：保留 8-bit Lab anchoring、低频/高频融合、结构锚点 mask、严格 mask 外不变和 Fill 真实入口；保留 Fill blocker、空白 `human_preference_fidelity.csv` 和 `AWAIT_HUMAN_REVIEW` 状态。当前自动选择全部为 identity，因为 Fill 后端不可用；不将 P0 后处理结果称为最终增强。
 - 下一步：人工查看 `fidelity_ablation_contact_sheet.png`、两个盲评图并填写偏好表。若提供已接受 FLUX.1-Fill-dev 许可证的 Hugging Face token，再只运行一次 smoke，随后按官方 50-step 设置做 24 个正式 seed 调用和最多 2 个 anchor 对照；否则结论保持为“P0 可降低颜色/低频漂移，但 mask-aware Fill 与 seed consensus 本轮受权限 blocker，不能判断结构稳定性”。
+
+## 2026-08-21 - FLUX.1-Fill fidelity quick6 云端正式运行
+
+- 实验假设：官方 mask-aware Fill 配合颜色/频率约束、结构锚点和多 seed consensus，可以在保留原图低频外观与建筑结构的同时提供局部高频修复。
+- 修改内容：核验并补齐 FLUX.1-Fill-dev 的 7 个大权重及缺失的 VAE/config、transformer index；修正下载监控把 downloader 退出误判为完成的问题。V100 纯 GPU 和普通 CPU offload 分别受显存/主机内存限制后，给 runner 增加 `--cpu-offload`，使用 Accelerate balanced device map、28 GiB CUDA、12 GiB CPU 和磁盘 offload；模型权重不写入仓库。
+- 失败或成功现象：初始大文件存在未完成的 `.aria2` 分片，重新断点续传并逐文件按字节核验后 `partial_count=0`。纯 GPU 加载返回 `RC=137`，旧 CPU offload 也因主机仅约 15 GiB RAM 失败；balanced offload 成功完成 8-step smoke 和 50-step 正式推理。
+- 结果变化：smoke `outside_max_abs=0`、运行约 `291.108s`；正式运行 6 张 quick6 × 4 seeds，共 24 个 Fill 调用，另有 2 个结构锚点消融调用。结果状态 `completed`，后端为 `flux1_fill_diffusers`，自动 Full 选择 `5/6`，另 `1/6` 拒绝并保留 identity；Fill 相关复合结果的 `outside_max_abs` 均为 `0`。这些只证明真实模型运行、严格 mask 合成和稳定性后处理可执行，不构成无 GT 的视觉质量结论。
+- 是否保留：保留官方 Fill runner、balanced offload、完整 raw/composite/seed uncertainty/盲评图和空白人工评价表；云端结果已同步到独立的 `flux_fidelity_cloud_v100_v7`，未覆盖上一轮 blocker 输出，也不提交模型权重或压缩包。自动选择不能替代人工判断。
+- 下一步：在本地核对 v7 全部文件并推送当前分支；人工查看 `fidelity_vs_quality_blind.png`、`identity_vs_full_blind.png` 与逐样本 zoom 后填写 `human_preference_fidelity.csv`，再决定是否继续。当前不扩展到 24 张，也不宣称 Full 已优于 FLUX.2 或 identity。
