@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "go_decision": "AWAIT_HUMAN_REVIEW",
+  "source_baseline": "research/outputs/restoration_v2/flux_constrained_cloud_v100",
+  "fill_backend_status": "blocked_external_access",
+  "fill_blockers": [
+    "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance."
+  ],
+  "images": 6,
+  "formal_fill_calls": 0,
+  "anchor_ablation_extra_calls": 0,
+  "identity_selected_count": 6,
+  "full_selected_count": 0,
+  "outside_max_abs_requirement": "see fidelity_metrics.csv; strict composite required",
+  "subjective_quality_claim": "none; human_preference_fidelity.csv is intentionally blank",
+  "outputs": {
+    "contact_sheet": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/fidelity_ablation_contact_sheet.png",
+    "fidelity_blind": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/fidelity_vs_quality_blind.png",
+    "identity_blind": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/identity_vs_full_blind.png",
+    "metrics": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/fidelity_metrics.csv",
+    "stability": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/seed_stability.csv",
+    "human_preference": "research/outputs/restoration_v2/flux_fidelity_cloud_v100/human_preference_fidelity.csv"
+  },
+  "records": [
+    {
+      "sample_id": "showcase_09_11_62_TTSDZHIVHT_1_3_16_A_Living_114.13213_22.282362_109.46_60.14074",
+      "degradation_type": "uv_stretch",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 28.983030319213867,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 28.782594680786133,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    },
+    {
+      "sample_id": "showcase_10_332_11_SKBKBPEAPE_1_10_9_B_Living_114.148944_22.280819_177.7997_124.083485",
+      "degradation_type": "repeat_seam",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 42.99504852294922,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 19.983360290527344,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    },
+    {
+      "sample_id": "showcase_11_291_41_SKSWBPWJPS_1_11_12_D_LivingDining_114.142098_22.284331_102.0552_26.061722",
+      "degradation_type": "repeat_seam",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 31.16160774230957,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 23.47410774230957,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    },
+    {
+      "sample_id": "showcase_13_1332_56_SSPPWYPXPS_1_26_18_G_Living_114.133475_22.285613_89.834_14.049906",
+      "degradation_type": "uv_stretch",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 56.647247314453125,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 8.807937622070312,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    },
+    {
+      "sample_id": "showcase_14_322_73_TZHSTHMYHM_2_108_16_1_Kitchen_114.151702_22.278596_198.2771_116.042403",
+      "degradation_type": "blur_lowres",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 20.348613739013672,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 24.587440490722656,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    },
+    {
+      "sample_id": "showcase_16_1537_93_TZTNIHIYHM_1_39_44_F_Bed_2_114.149404_22.281903_256.0967_32.133977",
+      "degradation_type": "blur_lowres",
+      "selected": "identity",
+      "rejection_reason": "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance.",
+      "baseline_seed_mad": 33.484371185302734,
+      "full_seed_mad": "",
+      "baseline_low_frequency_lab_l1": 12.945344924926758,
+      "full_low_frequency_lab_l1": "",
+      "uncertain_mask_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "blocked_external_access",
+  "blockers": [
+    "Hugging Face GatedRepoError: 401 Unauthorized; FLUX.1-Fill-dev requires authenticated access and license acceptance."
+  ]
+}

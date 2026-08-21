@@ -83,3 +83,14 @@
 - 结果变化：`flux_candidates.csv` 共 14 行，所有候选 `outside_max_abs=0`，独立复核也是 `0`；mask 内确实发生了生成变化，`changed_fraction_mask` 约为 `0.9934--0.9999`。summary 标记 `REVIEW_QUICK6`，生成候选数为 `14`，selected identity 数为 `0`。这些数值只证明真实生成和严格合成已运行，不能证明视觉质量提升。
 - 是否保留：保留官方 FLUX.2 runner、纯 GPU 显存分流、完整 6 张 contact/blind/zoom/difference/raw 输出和空白 `human_preference_flux.csv`；不由 Codex 填写人工 better/same/worse，也不把自动 delta 分数解释成真实 Open3DHK 质量提升。
 - 下一步：先由人工查看盲评图并填写 `human_preference_flux.csv`，同时检查结构改变、材质漂移和接缝；只有满足原定 quick6 门槛才扩展到 24 张，否则保留失败图并停止换模型。当前 target-only 与 multi-reference 的稳定性、哪类退化最适合生成修复，仍需人工盲评后回答。
+
+## 2026-08-21 - FLUX fidelity robustness quick6
+
+- 实验假设：原图应负责低频墙色、光照、体块和透视，FLUX.2 只保留高频细节；Lab median/MAD anchoring、低频/高频融合和结构锚点可以降低当前 FLUX.2 的颜色漂移与边界风险，多 seed 一致区域才允许进入最终输出。
+- 修改内容：新建分支 `codex/flux-fidelity-robustness-20260821` 和 `research/restoration_v2/flux_fidelity.py`。直接读取 `flux_constrained_cloud_v100`，生成 Lab anchor、frequency fusion、LSD/Hough structural anchor、manual/fill mask、strict difference、盲评图和完整指标；修复 `_difference_image` 的整数溢出，并将 Lab 转换改为标准 8-bit OpenCV 表示，避免 float 色域误用造成黑块。
+- 失败或成功现象：P0 在本地和 V100 均成功运行 6 张。第一次本地 sanity 使用 float Lab 反变换出现黑色 mask 区域，已定位并修正后重跑通过。所有 P0 方法 `outside_max_abs=0`，共 24 行指标（identity/current FLUX2/Lab anchor/frequency fusion）。
+- 原因判断：P0 的颜色/频率约束确实能压低低频外观漂移，但这不等价于结构恢复；contact sheet 中部分区域变暗/变冷，仍需人工判断是否过度约束，不能自动宣称质量提升。
+- 结果变化：current FLUX2 的 mask 内低频 Lab L1 均值/中位数为 `19.763/21.729`；Lab anchor 为 `6.489/6.525`，mask median Lab shift 均值由 `21.278` 降至 `0.056`；frequency fusion 为 `1.096/1.099`，boundary Lab L1 均值由 `14.884` 降至 Lab anchor=`7.446`、frequency=`4.247`。这些是保真 sanity 指标，不是无 GT 的真实修复质量。
+- 失败或成功现象：官方 `FluxFillPipeline` 可导入，但无凭据下载 `black-forest-labs/FLUX.1-Fill-dev` 返回 `GatedRepoError: 401 Unauthorized`，提示需要认证和许可证接受。单次 Fill smoke 被准确记录为 `blocked_external_access`；正式 Fill 调用数=`0`，结构锚点额外调用数=`0`，没有用 FLUX.2 或 identity 冒充 Fill/4-seed 结果。
+- 是否保留：保留 8-bit Lab anchoring、低频/高频融合、结构锚点 mask、严格 mask 外不变和 Fill 真实入口；保留 Fill blocker、空白 `human_preference_fidelity.csv` 和 `AWAIT_HUMAN_REVIEW` 状态。当前自动选择全部为 identity，因为 Fill 后端不可用；不将 P0 后处理结果称为最终增强。
+- 下一步：人工查看 `fidelity_ablation_contact_sheet.png`、两个盲评图并填写偏好表。若提供已接受 FLUX.1-Fill-dev 许可证的 Hugging Face token，再只运行一次 smoke，随后按官方 50-step 设置做 24 个正式 seed 调用和最多 2 个 anchor 对照；否则结论保持为“P0 可降低颜色/低频漂移，但 mask-aware Fill 与 seed consensus 本轮受权限 blocker，不能判断结构稳定性”。
