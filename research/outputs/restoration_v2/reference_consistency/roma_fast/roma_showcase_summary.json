@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "setting": "official RoMa v2 fast / 512 / batch=1",
+  "images": 8,
+  "mean_mask_support_ratio": 0.16031054765752478,
+  "outside_max_abs": 0,
+  "official_repo": "https://github.com/Parskatt/RoMaV2"
+}

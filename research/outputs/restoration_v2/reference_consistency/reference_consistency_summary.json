@@ -1,0 +1,50 @@
+{
+  "unique_images": 24,
+  "candidate_pool_unique_rgb": 220,
+  "manual": {
+    "images": 24,
+    "reliable_images": 2,
+    "coverage_ratio": 0.08333333333333333,
+    "median_mask_support_ratio": 0.64981,
+    "median_mask_confidence": 0.0024965,
+    "mask_outside_max_abs": 0
+  },
+  "sam": {
+    "images": 24,
+    "reliable_images": 1,
+    "coverage_ratio": 0.041666666666666664,
+    "median_mask_support_ratio": 0.8882525,
+    "median_mask_confidence": 0.0024965,
+    "mask_outside_max_abs": 0
+  },
+  "contact_sheets": {
+    "manual": "open3dhk_reference_consistency_contact_sheet.png",
+    "sam": "open3dhk_reference_consistency_contact_sheet_sam.png",
+    "blind": "open3dhk_reference_identity_vs_method_blind.png"
+  },
+  "metrics_csv": "reference_consistency_metrics.csv",
+  "candidates_csv": "reference_consistency_candidates.csv",
+  "human_preference_csv": "human_preference.csv",
+  "homography_coordinate_fix": "H_native=inv(S_target) @ H_small @ S_reference",
+  "roma_status": {
+    "smoke": "roma_smoke.json",
+    "showcase": "roma_fast/roma_showcase_summary.json",
+    "showcase_metrics": "roma_fast/roma_showcase_metrics.csv",
+    "setting": "official RoMa v2 fast / 512 / batch=1",
+    "images": 8,
+    "mean_mask_support_ratio": 0.16031054765752478,
+    "mask_outside_max_abs": 0
+  },
+  "matrixcity_gt": {
+    "summary": "../matrixcity_small/matrixcity_summary.json",
+    "metrics": "../matrixcity_small/matrixcity_metrics.csv",
+    "pairs": 100,
+    "identity_psnr_mean": 18.790884141508865,
+    "homography_psnr_mean": 17.39350390485533,
+    "identity_ssim_mean": 0.5358551684657791,
+    "homography_ssim_mean": 0.4627035177282084,
+    "identity_lpips_mean": 0.28049501394852994,
+    "homography_lpips_mean": 0.15152049738913775,
+    "mask_outside_max_abs": 0
+  }
+}

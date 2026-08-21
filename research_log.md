@@ -51,3 +51,15 @@
 - 结果变化：同建筑候选检索使用当前本地可用的 220 张 annotation images，以 SIFT descriptor + RANSAC homography 做透明 fallback；24 张 showcase 中 13 张达到 `inliers>=8、inlier_ratio>=0.2、coverage>=0.03` 的可靠对齐，超过继续验证所需的 6 张。其余样本记录为无候选或弱 homography，未强行融合。
 - 是否保留：保留严格 proxy、真实 NAFNet/LaMa 代码、SIFT/RANSAC 参考分支、固定 24 张 showcase、blind grid、failure cases 和空 `human_preference.csv`；不把 LaMa 在 proxy 上的优势写成 Open3DHK 真实提升，也不把 R1 的接近输入输出称作已验证 enhancement。
 - 下一步：以 reference warp 的 13 个可靠样本作为下一轮可延伸方向；本轮最终报告以 `open3dhk_full_grid.png`、`open3dhk_zoom_grid.png` 和失败案例为主。若要得到真正的 Open3DHK 像素质量提升，下一轮需要更可靠的同建筑参考筛选/融合或具备真实建筑数据训练的恢复模型，而不是继续调低强度掩盖 LaMa 漂移。
+
+## 2026-08-21 - reference-consistency P0 与 MatrixCity 小规模 GT 验证
+
+- 实验假设：修正缩放坐标后的 homography、只用 mask 外可靠重叠区域做颜色调整，并把参考纹理限制在高置信度 mask 交集内，可以避免全局参考 warp 的结构漂移；若参考视图确实有用，MatrixCity 的真实 clean target/reference 对应应能相对 identity 改善。
+- 修改内容：在新分支 `codex/reference-consistency-20260821` 增加 `reference_consistency.py`。使用 `H_native=inv(S_target)@H_small@S_reference`；候选池去重到 220 张 RGB，每个目标保留 top-5；增加 `mask_support_ratio`、mask 内高置信度/平均 confidence、forward-backward consistency、local reprojection error、mask 外 photometric residual，并按 24 张 unique image 分开汇总 manual/SAM。生成 manual/SAM 24 张 contact sheet、局部 zoom、confidence/difference 图和空白 `human_preference.csv`。
+- 失败或成功现象：P0 严格 mask 外最大误差为 `0`。manual 仅 `2/24` 达到当前保守可靠条件，SAM 为 `1/24`；median mask support 为 manual=`0.6498`、SAM=`0.8883`，但 median mask confidence 仅约 `0.0025`。许多样本虽有投影覆盖，SIFT inlier 在 mask 内稀疏或被单个全局 homography 拉成错误平面，未强行融合。
+- 原因判断：当前 220 张候选仍不足以覆盖同一建筑的可靠邻近视角；SIFT+homography 对非平面立面和大 mask 不稳。该结果支持继续试真实稠密匹配，但不支持调阈值来人为扩大覆盖。
+- 结果变化：MatrixCity 官方 small-city street train_dense 的 `road_down` 仅按 HTTP Range 读取 RGB tar 前 512MB，配合官方 pose 索引和 Open3DHK mask 形状，构造了 100 个 target/reference/clean-GT 对；退化包括 `uv_stretch`、`repeat_seam`、`resolution_blur`，严格满足 `distorted=M*degraded+(1-M)*clean`。未将 MatrixCity 原始数据或 tar 提交仓库。
+- 结果变化：MatrixCity 100 对的 PSNR/SSIM/LPIPS 均值分别为 identity=`18.7909/0.5359/0.2805`，SIFT homography=`17.3935/0.4627/0.1515`；median LPIPS 为 `0.2563/0.1262`。LPIPS 下降但 PSNR/SSIM 同时下降，说明该 baseline 可能改善感知特征却产生像素/结构错位，不能满足“像素质量确实提高”的 go 条件；mask 外最大误差为 `0`。
+- 结果变化：RoMa v2 官方实现使用 Python 3.12、RTX 3060、fast/512、batch=1 成功初始化并完成烟测；8 张 Open3DHK manual showcase 的 mean mask support=`0.1603`，其中只有 2 张约 `0.53/0.60`，其余多为低重叠，mask 外最大误差仍为 `0`。fast 模式不提供双向 warp（`bidirectional=false`），因此本轮不宣称已完成 forward-backward dense consistency。
+- 是否保留：保留 P0 修正、完整图和失败案例、严格 outside invariant、MatrixCity 小规模有 GT 代码与缓存外数据说明；不保留全局 homography 作为默认修复方法。
+- 下一步：完成 RoMa 官方实现烟测；若官方稠密匹配能在 RTX 3060 6GB 的 fast/512 设置下运行，再只在小子集比较 dense overlap/confidence。若 RoMa 不能稳定运行或仍无有效 mask 内覆盖，则按 Go/No-Go 停止扩展修复器，结论转为需要更密集的同建筑邻近视图。

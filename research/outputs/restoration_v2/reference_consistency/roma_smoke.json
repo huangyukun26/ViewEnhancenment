@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "setting": "fast (512x512, batch=1)",
+  "device": "cuda:0",
+  "target": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/images/124_85_TZSITHMXHM_1_11_5_2_Bed_1_114.152023_22.27867_167.35_37.628964.png",
+  "reference": "research/assets/distortion_segmentation_annotation_dataset/for_segmentation/images/121_85_TZSITHMXHM_1_11_2_2_Bed_1_114.152023_22.27867_159.01_37.628964.png",
+  "warp_shape": [
+    1,
+    512,
+    512,
+    2
+  ],
+  "overlap_shape": [
+    1,
+    512,
+    512,
+    1
+  ],
+  "overlap_mean": 0.5624334216117859,
+  "overlap_median": 0.8928022980690002,
+  "bidirectional": false,
+  "official_repo": "https://github.com/Parskatt/RoMaV2"
+}

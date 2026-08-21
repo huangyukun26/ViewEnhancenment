@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "pairs": 100,
+  "source": "MatrixCity small_city street train_dense / road_down",
+  "mask_source": "Open3DHK annotation masks",
+  "methods": {
+    "identity": {
+      "masked_psnr_mean": 18.790884141508865,
+      "masked_psnr_median": 17.43955863348115,
+      "masked_ssim_mean": 0.5358551684657791,
+      "masked_ssim_median": 0.5193915985991564,
+      "masked_lpips_mean": 0.28049501394852994,
+      "masked_lpips_median": 0.25632695853710175
+    },
+    "homography": {
+      "masked_psnr_mean": 17.39350390485533,
+      "masked_psnr_median": 16.963833032291625,
+      "masked_ssim_mean": 0.4627035177282084,
+      "masked_ssim_median": 0.45643918731955857,
+      "masked_lpips_mean": 0.15152049738913775,
+      "masked_lpips_median": 0.1262427344918251
+    }
+  }
+}
