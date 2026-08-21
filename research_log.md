@@ -73,3 +73,13 @@
 - 结果变化：6 张、14 个候选记录均为 blocker identity passthrough；真实 FLUX candidate 数为 `0`，selected identity/abstain 为 `6/6`。所有候选 `outside_max_abs=0`，满足像素外保真 sanity check；`changed_fraction_mask` 和 `mean_abs_delta_mask` 为 `0`，因此没有任何可据此声称的视觉提升。
 - 是否保留：保留 quick6 manifest、真实 FLUX.2 Diffusers runner、raw/candidate/selected 目录、contact sheet、blind key、空白人工评价表和准确 blocker 报告；不把身份透传结果列为 FLUX enhancement，不填写主观 better/worse。
 - 下一步：只有在提供官方 FLUX.2-klein-4B 本地权重且具备可用显存/远程推理资源后，重新运行这 6 张并由人工填写盲评；在真实 FLUX 候选产生前，本轮判定 `NO-GO_BLOCKED`，不扩展到 24 张，也不继续调 SIFT/RoMa/NAFNet/LaMa。
+
+## 2026-08-21 - FLUX.2-klein-4B 云端 V100 quick6 实推
+
+- 实验假设：官方 FLUX.2-klein-4B 在 Open3DHK 局部 crop 上能产生真实候选；32GB V100 使用纯 GPU 推理应比 6GB 本地显卡的 CPU offload 更适合短周期验证，同时严格 mask 合成应保持 mask 外像素不变。
+- 修改内容：在云服务器按 Diffusers 目录只下载必需权重，使用官方 Hugging Face URL、aria2 多连接和断点续传；补装 runner 所需的 `scikit-image`；新增按显存自动选择纯 GPU/CPU offload 的路径，32GB V100 用 fp16 纯 GPU，6GB 显卡保留 offload fallback。保留一份慢路径的 1 张部分结果到 `flux_constrained_cloud_v100_offload_partial`，完整结果写入独立的 `flux_constrained_cloud_v100`。
+- 失败或成功现象：模型权重完整下载并成功加载；第一次 CPU offload 候选约 1 分钟级，确认不是模型错误后停止该慢路径并重跑。纯 GPU runner 成功完成 6 张 quick6、14 个真实 FLUX 候选（target-only 12 个，含参考图的 2 个），没有 blocker。参考图仅存在于其中 1 张样本，不能据此得出 multi-reference 优势结论。
+- 原因判断：32GB 显存足以避免本轮 CPU offload；纯 GPU 使 4 步候选推理约为 `2.6806--8.9972 s`，均值 `5.4565 s`，按退化类型均值为 uv_stretch=`6.207 s`、repeat_seam=`5.330 s`、blur_lowres=`4.457 s`。下载慢的主要瓶颈是 Hugging Face 上游/CDN，未采用实测超时的镜像。
+- 结果变化：`flux_candidates.csv` 共 14 行，所有候选 `outside_max_abs=0`，独立复核也是 `0`；mask 内确实发生了生成变化，`changed_fraction_mask` 约为 `0.9934--0.9999`。summary 标记 `REVIEW_QUICK6`，生成候选数为 `14`，selected identity 数为 `0`。这些数值只证明真实生成和严格合成已运行，不能证明视觉质量提升。
+- 是否保留：保留官方 FLUX.2 runner、纯 GPU 显存分流、完整 6 张 contact/blind/zoom/difference/raw 输出和空白 `human_preference_flux.csv`；不由 Codex 填写人工 better/same/worse，也不把自动 delta 分数解释成真实 Open3DHK 质量提升。
+- 下一步：先由人工查看盲评图并填写 `human_preference_flux.csv`，同时检查结构改变、材质漂移和接缝；只有满足原定 quick6 门槛才扩展到 24 张，否则保留失败图并停止换模型。当前 target-only 与 multi-reference 的稳定性、哪类退化最适合生成修复，仍需人工盲评后回答。

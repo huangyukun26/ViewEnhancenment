@@ -1,0 +1,36 @@
+{
+  "seed": 20260821,
+  "backend_status": "flux2_klein_4b_diffusers",
+  "samples": {
+    "showcase_09_11_62_TTSDZHIVHT_1_3_16_A_Living_114.13213_22.282362_109.46_60.14074": {
+      "A": "identity",
+      "B": "selected",
+      "selected": "target_only_seed0"
+    },
+    "showcase_10_332_11_SKBKBPEAPE_1_10_9_B_Living_114.148944_22.280819_177.7997_124.083485": {
+      "A": "selected",
+      "B": "identity",
+      "selected": "target_only_seed0"
+    },
+    "showcase_11_291_41_SKSWBPWJPS_1_11_12_D_LivingDining_114.142098_22.284331_102.0552_26.061722": {
+      "A": "selected",
+      "B": "identity",
+      "selected": "target_only_seed0"
+    },
+    "showcase_13_1332_56_SSPPWYPXPS_1_26_18_G_Living_114.133475_22.285613_89.834_14.049906": {
+      "A": "selected",
+      "B": "identity",
+      "selected": "target_plus_reference_seed0"
+    },
+    "showcase_14_322_73_TZHSTHMYHM_2_108_16_1_Kitchen_114.151702_22.278596_198.2771_116.042403": {
+      "A": "selected",
+      "B": "identity",
+      "selected": "target_only_seed1"
+    },
+    "showcase_16_1537_93_TZTNIHIYHM_1_39_44_F_Bed_2_114.149404_22.281903_256.0967_32.133977": {
+      "A": "selected",
+      "B": "identity",
+      "selected": "target_only_seed0"
+    }
+  }
+}

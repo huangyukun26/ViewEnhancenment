@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "backend": "FLUX.2-klein-4B / Diffusers",
+  "backend_status": "flux2_klein_4b_diffusers",
+  "blockers": [],
+  "images": 6,
+  "generated_flux_candidates": 14,
+  "candidate_rows": 14,
+  "selected_identity_count": 0,
+  "outside_max_abs_all_candidates": 0,
+  "outside_max_abs_requirement_satisfied": true,
+  "go_decision": "REVIEW_QUICK6",
+  "quick6_manifest": "research/data/flux_quick6.csv",
+  "contact_sheet": "research/outputs/restoration_v2/flux_constrained_cloud_v100/flux_quick6_contact_sheet.png",
+  "blind_sheet": "research/outputs/restoration_v2/flux_constrained_cloud_v100/flux_quick6_blind.png",
+  "blind_key": "research/outputs/restoration_v2/flux_constrained_cloud_v100/blind_key.json",
+  "human_preference": "research/outputs/restoration_v2/flux_constrained_cloud_v100/human_preference_flux.csv",
+  "official_repo": "https://github.com/black-forest-labs/flux2",
+  "model_card": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "subjective_quality_claim": "none; human_preference_flux.csv is intentionally blank"
+}
