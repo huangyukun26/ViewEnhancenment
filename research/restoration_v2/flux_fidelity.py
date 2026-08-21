@@ -387,6 +387,7 @@ def main() -> None:
     parser.add_argument("--source-dir", type=Path, default=SOURCE_DEFAULT)
     parser.add_argument("--output-dir", type=Path, default=OUT_DEFAULT)
     parser.add_argument("--fill-model-path", type=Path, default=None)
+    parser.add_argument("--fill-blocker-note", type=str, default="", help="Record an externally verified Fill access blocker without running a fake backend.")
     parser.add_argument("--fill-steps", type=int, default=50)
     parser.add_argument("--context", type=int, default=128)
     parser.add_argument("--feather", type=int, default=4)
@@ -404,7 +405,10 @@ def main() -> None:
     fill_blockers: list[str] = []
     fill_env = os.environ.get("FLUX_FILL_MODEL_PATH", "")
     fill_path = args.fill_model_path or (Path(fill_env) if fill_env else None)
-    if not args.no_fill and fill_path is not None and fill_path.exists():
+    if args.fill_blocker_note:
+        fill_status = "blocked_external_access"
+        fill_blockers.append(args.fill_blocker_note)
+    elif not args.no_fill and fill_path is not None and fill_path.exists():
         try:
             fill_pipe, fill_torch = _load_fill_pipeline(fill_path)
             fill_status = "flux1_fill_diffusers"
