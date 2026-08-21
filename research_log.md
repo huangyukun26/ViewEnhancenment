@@ -63,3 +63,13 @@
 - 结果变化：RoMa v2 官方实现使用 Python 3.12、RTX 3060、fast/512、batch=1 成功初始化并完成烟测；8 张 Open3DHK manual showcase 的 mean mask support=`0.1603`，其中只有 2 张约 `0.53/0.60`，其余多为低重叠，mask 外最大误差仍为 `0`。fast 模式不提供双向 warp（`bidirectional=false`），因此本轮不宣称已完成 forward-backward dense consistency。
 - 是否保留：保留 P0 修正、完整图和失败案例、严格 outside invariant、MatrixCity 小规模有 GT 代码与缓存外数据说明；不保留全局 homography 作为默认修复方法。
 - 下一步：完成 RoMa 官方实现烟测；若官方稠密匹配能在 RTX 3060 6GB 的 fast/512 设置下运行，再只在小子集比较 dense overlap/confidence。若 RoMa 不能稳定运行或仍无有效 mask 内覆盖，则按 Go/No-Go 停止扩展修复器，结论转为需要更密集的同建筑邻近视图。
+
+## 2026-08-21 - FLUX constrained restoration quick6 Go/No-Go
+
+- 实验假设：FLUX.2-klein-4B 在包含上下文的 Open3DHK 局部 crop 上，配合正向保真 prompt、固定 seed、可选同建筑参考和严格 mask 合成，可能比 identity 产生可见修复，同时不改变 mask 外像素。
+- 修改内容：新建 `research/data/flux_quick6.csv`，固定 6 张代表性图（2 张 UV stretch、2 张 repeat/seam、2 张 blur/low-resolution），并新增 `research/restoration_v2/flux_constrained.py`。runner 实现 target-only / target-plus-reference 两类候选、seed 0/1、96--160 像素上下文 crop、4 像素 mask 内 feather、raw generation 保存、边界/低频/变化量指标、contact sheet、盲评图和空白 `human_preference_flux.csv`。
+- 失败或成功现象：本机没有 FLUX.2-klein-4B 权重，`HF_TOKEN`/`HUGGINGFACE_HUB_TOKEN` 和 `BFL_API_KEY` 均未配置；检测到 RTX 3060 仅 6GB 显存，而官方 FLUX.2-klein-4B 模型卡标注约 13GB 显存。为避免把 identity 冒充 FLUX，本轮没有发起伪造生成，也没有扩展到 24 张。
+- 原因判断：当前是外部模型权重、凭据和硬件资源 blocker，不是模型质量负结果。runner 的 Diffusers 真实入口已保留，给定本地官方 checkpoint 后可按 `run_commands.md` 复现；当前输出中的 `blocked_identity_passthrough` 仅用于检查数据入口、图像组织和严格合成约束。
+- 结果变化：6 张、14 个候选记录均为 blocker identity passthrough；真实 FLUX candidate 数为 `0`，selected identity/abstain 为 `6/6`。所有候选 `outside_max_abs=0`，满足像素外保真 sanity check；`changed_fraction_mask` 和 `mean_abs_delta_mask` 为 `0`，因此没有任何可据此声称的视觉提升。
+- 是否保留：保留 quick6 manifest、真实 FLUX.2 Diffusers runner、raw/candidate/selected 目录、contact sheet、blind key、空白人工评价表和准确 blocker 报告；不把身份透传结果列为 FLUX enhancement，不填写主观 better/worse。
+- 下一步：只有在提供官方 FLUX.2-klein-4B 本地权重且具备可用显存/远程推理资源后，重新运行这 6 张并由人工填写盲评；在真实 FLUX 候选产生前，本轮判定 `NO-GO_BLOCKED`，不扩展到 24 张，也不继续调 SIFT/RoMa/NAFNet/LaMa。

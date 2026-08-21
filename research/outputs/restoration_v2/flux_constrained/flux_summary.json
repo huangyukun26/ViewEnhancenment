@@ -1,0 +1,25 @@
+{
+  "status": "blocked",
+  "backend": "FLUX.2-klein-4B / Diffusers",
+  "backend_status": "blocked_identity_passthrough",
+  "blockers": [
+    "HF_TOKEN/HUGGINGFACE_HUB_TOKEN and BFL_API_KEY were not configured during this run",
+    "hardware_note: detected RTX 3060 has 6GB VRAM; the official FLUX.2-klein-4B card states approximately 13GB VRAM",
+    "local_checkpoint_missing: no FLUX.2-klein-4B directory was found in --model-path, KLEIN_4B_MODEL_PATH, or FLUX2_MODEL_PATH"
+  ],
+  "images": 6,
+  "generated_flux_candidates": 0,
+  "candidate_rows": 14,
+  "selected_identity_count": 6,
+  "outside_max_abs_all_candidates": 0,
+  "outside_max_abs_requirement_satisfied": true,
+  "go_decision": "NO-GO_BLOCKED",
+  "quick6_manifest": "research\\data\\flux_quick6.csv",
+  "contact_sheet": "research\\outputs\\restoration_v2\\flux_constrained\\flux_quick6_contact_sheet.png",
+  "blind_sheet": "research\\outputs\\restoration_v2\\flux_constrained\\flux_quick6_blind.png",
+  "blind_key": "research\\outputs\\restoration_v2\\flux_constrained\\blind_key.json",
+  "human_preference": "research\\outputs\\restoration_v2\\flux_constrained\\human_preference_flux.csv",
+  "official_repo": "https://github.com/black-forest-labs/flux2",
+  "model_card": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+  "subjective_quality_claim": "none; human_preference_flux.csv is intentionally blank"
+}

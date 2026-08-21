@@ -1,0 +1,5 @@
+FLUX generation was not run. These are identity passthrough artifacts, not FLUX outputs.
+
+- local_checkpoint_missing: no FLUX.2-klein-4B directory was found in --model-path, KLEIN_4B_MODEL_PATH, or FLUX2_MODEL_PATH
+- HF_TOKEN/HUGGINGFACE_HUB_TOKEN and BFL_API_KEY were not configured during this run
+- hardware_note: detected RTX 3060 has 6GB VRAM; the official FLUX.2-klein-4B card states approximately 13GB VRAM
